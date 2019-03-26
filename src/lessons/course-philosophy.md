@@ -1,6 +1,6 @@
 ---
-slug: "/lesson-one"
-title: "Placeholder lesson"
+slug: '/course-philosophy'
+title: 'Course Philosophy'
 ---
 
 # Chartreuse: The Bespoke Chic Mixtape

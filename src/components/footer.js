@@ -56,7 +56,6 @@ const FooterLinkContainer = styled.div`
   display: inline;
   transition: all ease-in 0.3s;
   padding: 0%;
-  /* border-bottom: 2px solid rgba(0, 145, 201, 0.5); */
   border-bottom: 1px dotted #0091c9;
   &:hover {
     border-bottom: 1px dotted #fafafa;
