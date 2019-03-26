@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 
-
 const Header = ({ siteTitle }) => (
   <LogoWrapper>
     <DHFTitle>Digital Harbor Foundation</DHFTitle>
@@ -18,8 +17,6 @@ Header.propTypes = {
 Header.defaultProps = {
   siteTitle: ``,
 };
-
-export default Header;
 
 const LogoWrapper = styled.div`
   display: flex;
