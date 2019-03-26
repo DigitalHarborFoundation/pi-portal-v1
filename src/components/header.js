@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Header = ({ siteTitle }) => (
   <LogoWrapper>
-    <DHFTitle>Digital Harbor Foundation</DHFTitle>
+    <DHFTitle>{siteTitle}</DHFTitle>
   </LogoWrapper>
 );
 export default Header;
