@@ -17,10 +17,11 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `lessons`,
-        path: `${__dirname}/src/lessons`
-      }
+        path: `${__dirname}/src/lessons`,
+      },
+    },
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -36,4 +37,4 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
   ],
-}
+};
