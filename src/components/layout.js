@@ -43,6 +43,4 @@ Layout.propTypes = {
 
 export default Layout;
 
-const MainContent = styled.main`
-  color: red;
-`;
+const MainContent = styled.main``;

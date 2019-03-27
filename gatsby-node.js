@@ -8,7 +8,6 @@ exports.createPages = ({ graphql, actions }) => {
         allMarkdownRemark {
           edges {
             node {
-              id
               frontmatter {
                 title
                 slug
@@ -22,7 +21,8 @@ exports.createPages = ({ graphql, actions }) => {
         createPage({
           path: `/lessons${node.frontmatter.slug}`,
           component: path.resolve(`./src/templates/lesson-content.js`),
-          content: {
+          // component: path.resolve(`./src/components/layout.js`),
+          context: {
             slug: node.frontmatter.slug,
           },
         })

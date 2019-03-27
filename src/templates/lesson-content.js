@@ -1,31 +1,27 @@
-import PropTypes from 'prop-types';
 import React from 'react';
+import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import Layout from '../components/layout';
 
-const LessonContent = ({ lessonTitle, lessonContent }) => (
-  <Layout>
-    <LessonTitle>{lessonTitle} </LessonTitle>
-    <LessonContent>{lessonContent}</LessonContent>
-  </Layout>
-);
+const LessonContent = props => {
+  const { LessonItems } = props.data;
+  return (
+    <Layout>
+      <h1>{LessonItems.frontmatter.title} </h1>
+      <main dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
+    </Layout>
+  );
+};
 
 export default LessonContent;
 
-LessonContent.propTypes = {
-  lessonTitle: PropTypes.string,
-  lessonContent: PropTypes.string,
-};
-
-LessonContent.defaultProps = {
-  lessonTitle: ``,
-  lessonContent: ``,
-};
-
-const LessonTitle = styled.h1`
-  font-size: 4rem;
-`;
-
-const LessonCopy = styled.article`
-  font-size: 2rem;
+export const query = graphql`
+  query LessonQuery($slug: String!) {
+    LessonItems: markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+      }
+    }
+  }
 `;
