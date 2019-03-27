@@ -7,8 +7,8 @@ const LessonContent = props => {
   const { LessonItems } = props.data;
   return (
     <Layout>
-      <h1>{LessonItems.frontmatter.title} </h1>
-      <main dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
+      <LessonTitle>{LessonItems.frontmatter.title} </LessonTitle>
+      <LessonBody dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
     </Layout>
   );
 };
@@ -24,4 +24,12 @@ export const query = graphql`
       }
     }
   }
+`;
+
+const LessonTitle = styled.h2`
+  font-size: 3rem;
+`;
+
+const LessonBody = styled.main`
+  font-size: 2rem;
 `;
