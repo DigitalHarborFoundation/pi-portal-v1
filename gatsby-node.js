@@ -21,7 +21,7 @@ exports.createPages = ({ graphql, actions }) => {
       results.data.allMarkdownRemark.edges.forEach(({ node }) =>
         createPage({
           path: `/lessons${node.frontmatter.slug}`,
-          component: path.resolve(`./src/components/layout.js`),
+          component: path.resolve(`./src/template/lesson-content.js`),
           content: {
             slug: node.frontmatter.slug,
           },
