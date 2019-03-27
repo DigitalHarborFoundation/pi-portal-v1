@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import styled from 'styled-components';
 
 import Header from './header';
 import Footer from './footer';
@@ -28,7 +29,7 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-          <main>{children}</main>
+          <MainContent>{children}</MainContent>
         </div>
         <Footer />
       </>
@@ -41,3 +42,7 @@ Layout.propTypes = {
 };
 
 export default Layout;
+
+const MainContent = styled.main`
+  color: red;
+`;
