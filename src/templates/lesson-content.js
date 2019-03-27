@@ -13,8 +13,8 @@ const LessonContent = ({ lessonTitle, lessonContent }) => (
 export default LessonContent;
 
 LessonContent.propTypes = {
-  lessonTitle: propTypes.string,
-  lessonContent: propTypes.string,
+  lessonTitle: PropTypes.string,
+  lessonContent: PropTypes.string,
 };
 
 LessonContent.defaultProps = {
