@@ -15,15 +15,15 @@ const CourseNavbar = () => (
       <AccordionItem expanded={true}>
         <AccordionItemTitle className="accordion__title accordion__title--animated">
           <div className="u-position-relative">
-            <ModuleTitle>Orientation</ModuleTitle>
+            <ModuleTitle>Introduction</ModuleTitle>
             <div className="accordion__arrow" role="presentation" />
           </div>
         </AccordionItemTitle>
         <AccordionItemBody>
           <CourseNavEntry>
-            <Link href="/introduction">
-              <CourseNavLink>Welcome to Maker Foundations</CourseNavLink>
-            </Link>
+            <CourseNavLink to="/lessons/course-philosophy">
+              Course Philosophy
+            </CourseNavLink>
           </CourseNavEntry>
         </AccordionItemBody>
       </AccordionItem>
@@ -51,6 +51,7 @@ const CourseNavList = styled.ul`
   margin-left: 1.45rem;
   padding: 5px;
 `;
+
 const CourseNavEntry = styled.li`
   list-style-type: none;
   padding-bottom: 5px;
@@ -58,7 +59,7 @@ const CourseNavEntry = styled.li`
   margin-left: 1.25rem;
 `;
 
-const CourseNavLink = styled.a`
+const CourseNavLink = styled(Link)`
   list-style-type: none;
   padding-bottom: 5px;
   margin-bottom: 0px;
