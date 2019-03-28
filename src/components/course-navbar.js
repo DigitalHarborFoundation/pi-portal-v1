@@ -11,23 +11,56 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 
 const CourseNavbar = () => (
   <CourseNavbarContainer>
-    <Accordion>
-      <AccordionItem expanded={true}>
-        <AccordionItemTitle className="accordion__title accordion__title--animated">
-          <div className="u-position-relative">
-            <ModuleTitle>Introduction</ModuleTitle>
-            <div className="accordion__arrow" role="presentation" />
-          </div>
-        </AccordionItemTitle>
-        <AccordionItemBody>
+    <CourseNavbarNav>
+      <CourseNavList>
+        <Accordion>
           <CourseNavEntry>
-            <CourseNavLink to="/lessons/course-philosophy">
-              Course Philosophy
-            </CourseNavLink>
+            <AccordionItem expanded={true}>
+              <AccordionItemTitle className="accordion__title accordion__title--animated">
+                <div className="u-position-relative">
+                  <ModuleTitle>Introduction</ModuleTitle>
+                  <div className="accordion__arrow" role="presentation" />
+                </div>
+              </AccordionItemTitle>
+              <AccordionItemBody>
+                <CourseNavLink to="/lessons/course-philosophy">
+                  Course Philosophy
+                </CourseNavLink>
+              </AccordionItemBody>
+              <AccordionItemBody>
+                <CourseNavEntry>
+                  <CourseNavLink to="/lessons/course-overview-goals">
+                    Course Overview and Goals
+                  </CourseNavLink>
+                </CourseNavEntry>
+              </AccordionItemBody>
+            </AccordionItem>
           </CourseNavEntry>
-        </AccordionItemBody>
-      </AccordionItem>
-    </Accordion>
+          <AccordionItem expanded={false}>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>Introducing the Raspberry Pi</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/course-philosophy">
+                  Course Philosophy
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/course-overview-goals">
+                  Course Overview and Goals
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+        </Accordion>
+      </CourseNavList>
+    </CourseNavbarNav>
   </CourseNavbarContainer>
 );
 
@@ -37,8 +70,8 @@ const CourseNavbarContainer = styled.aside`
   display: flex;
   flex-direction: column;
   grid-area: sidebar;
-  padding-top: 20px;
-  background-color: #f5f4f5;
+  /* padding-top: 20px; */
+  margin-top: 2rem;
 `;
 
 const CourseNavbarNav = styled.nav`
@@ -54,9 +87,9 @@ const CourseNavList = styled.ul`
 
 const CourseNavEntry = styled.li`
   list-style-type: none;
-  padding-bottom: 5px;
+  /* padding-bottom: 5px; */
   margin-bottom: 0px;
-  margin-left: 1.25rem;
+  /* margin-left: 1.25rem; */
 `;
 
 const CourseNavLink = styled(Link)`
