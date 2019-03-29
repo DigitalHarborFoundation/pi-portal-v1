@@ -30,8 +30,11 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               // Adjust based on determined max-width in the image container
-              maxWidth: 400,
+              maxWidth: 600,
             },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
           },
         ],
       },
