@@ -40,6 +40,20 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.45rem`,
             },
           },
+          {
+            resolve: `gatsby-remark-smartypants`,
+            options: {
+              // placeholder for options as discovered
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: 'language-',
+              showLineNumbers: false,
+              noInlineHighlight: false,
+            },
+          },
           `gatsby-remark-copy-linked-files`,
         ],
       },
