@@ -36,9 +36,11 @@ module.exports = {
           {
             resolve: `gatsby-remark-responsive-iframe`,
             options: {
+              // optional CSS for the iframe wrapper
               wrapperStyle: `margin-bottom: 1.45rem`,
             },
           },
+          `gatsby-remark-copy-linked-files`,
         ],
       },
     },
