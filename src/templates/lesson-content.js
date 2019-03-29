@@ -45,17 +45,21 @@ const LessonContainer = styled.main`
 `;
 
 const LessonBody = styled.article`
+  display: flex;
+  flex-direction: column;
+
   img {
     width: auto;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   }
 
-  img: hover {
+  img:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }
+
   a {
     color: #0091c9;
-    font-family: 'Avenir';
+    font-family: Avenir;
     text-decoration: none;
     transition: color 0.5s ease;
   }
