@@ -36,7 +36,7 @@ const CourseNavbar = () => (
               </AccordionItemBody>
             </AccordionItem>
           </CourseNavEntry>
-          <AccordionItem expanded={false}>
+          <AccordionItem>
             <AccordionItemTitle className="accordion__title accordion__title--animated">
               <div className="u-position-relative">
                 <ModuleTitle>Introducing the Raspberry Pi</ModuleTitle>
@@ -45,15 +45,30 @@ const CourseNavbar = () => (
             </AccordionItemTitle>
             <AccordionItemBody>
               <CourseNavEntry>
-                <CourseNavLink to="/lessons/course-philosophy">
-                  Course Philosophy
+                <CourseNavLink to="/lessons/raspberry-pi-basics">
+                  Raspberry Pi Basics
                 </CourseNavLink>
               </CourseNavEntry>
             </AccordionItemBody>
             <AccordionItemBody>
               <CourseNavEntry>
-                <CourseNavLink to="/lessons/course-overview-goals">
-                  Course Overview and Goals
+                <CourseNavLink to="/lessons/raspberry-pi-hardware-overview">
+                  Raspberry Pi: Hardware Overview
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>HTML Basics</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/html-basics-part-1">
+                  HTML Basics: Part 1
                 </CourseNavLink>
               </CourseNavEntry>
             </AccordionItemBody>
