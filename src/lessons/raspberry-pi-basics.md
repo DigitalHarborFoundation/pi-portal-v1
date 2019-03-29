@@ -25,8 +25,8 @@ This lesson introduces the Raspberry Pi and provides an overview of some of the 
 
 A Raspberry Pi is a small, \$35 credit card sized computer that runs the Linux operating system. These powerful computers are flexible enough to be the backbone of a variety of projects ranging from webservers to vintage arcade systems.
 
-https://youtu.be/uXUjwk2-qx4
-
+<iframe src="https://www.youtube.com/embed/uXUjwk2-qx4" width="600" height="400" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe> 
+ 
 ## Raspberry Pi Comparisons: Arduino
 
 If you’ve seen or used an Arduino, you may be wondering the core differences between a Raspberry Pi and an Arduino. On the surface it may seem as if they’re the same thing, especially considering the variety of projects that both can power.

@@ -35,6 +35,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1.45rem`,
+            },
           },
         ],
       },
