@@ -82,7 +82,14 @@ const CourseNavbar = () => (
             <AccordionItemBody>
               <CourseNavEntry>
                 <CourseNavLink to="/lessons/adding-images">
-                  Adding Images{' '}
+                  Adding Images
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/linking-betweeen-pages">
+                  Linking Between Pages
                 </CourseNavLink>
               </CourseNavEntry>
             </AccordionItemBody>
