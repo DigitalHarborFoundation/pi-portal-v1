@@ -93,6 +93,13 @@ const CourseNavbar = () => (
                 </CourseNavLink>
               </CourseNavEntry>
             </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/creating-page-structure-with-html">
+                  Creating a Page Structure With HTML
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
           </AccordionItem>
         </Accordion>
       </CourseNavList>
