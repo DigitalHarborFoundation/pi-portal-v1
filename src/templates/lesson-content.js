@@ -50,11 +50,12 @@ const LessonBody = styled.article`
 
   img {
     width: auto !important;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
   }
 
   img:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+    box-shadow: rgba(39, 44, 49, 0.07) 8px 28px 50px,
+      rgba(39, 44, 49, 0.04) 1px 6px 12px !important;
   }
 
   a {
