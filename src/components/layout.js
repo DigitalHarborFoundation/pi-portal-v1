@@ -67,3 +67,4 @@ const ContentContainer = styled.div`
       "sidebar"
       "footer"
 `;
+
