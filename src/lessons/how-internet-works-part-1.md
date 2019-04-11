@@ -11,7 +11,7 @@ title: 'How the Internet Works: Part 1'
 - Explain the difference between internal and external IP addresses.
 - Discover the role that DNS plays in connecting domain names and server IP addresses. 
 - Identify your Raspberry Pi’s IP address.
-
+ 
 
 ### CSTA Standards
 
@@ -40,7 +40,8 @@ This will return your Pi's IP address. Check out this screenshot taken from Adaf
 This command returns lots of information. Your IP address is found in the ```wlan0``` section next to the ```inet addr```. In the above example, the Pi's IP address is ```192.168.1.10```.
 
 ## DNS
-**DNS** stands for **Domain Name Server**. Essentially, this is what transfers the text of a **domain name** into an IP address. While the domain name text is easy for humans to write and remember, computers need to translate these into the IP addresses. Computers access websites via the IP addresses. Each server that serves web content has an IP address that is accessed by other computers, such as your web browser.
+
+**DNS** stands for **Domain Name Server**. Essentially, this is what transfers the text of a **domain name** into an IP address. While the domain name text is easy for humans to write and remember, computers need to translate these into the IP addresses. Computers access websites via IP addresses. Each server that serves web content has an IP address that is accessed by other computers, such as your web browser.
 
 Imagine how difficult it would be to remember *every website* as a series of numbers instead of domain names. It's much easier for us to remember websites as readable words instead of numbers, but computers need to be able to translate these words into numbers. The computer needs the actual IP addresses but it would be nearly impossible to remember all of the IP address combinations for the number of websites on the internet.
 
@@ -53,5 +54,5 @@ Here is some additional reading on the history of DNS: [Link to the article 'Wh
 The objective of this quick activity is to determine your Pi's IP address. This process is fairly quick and can be done by following the steps (or video) outlined in this lesson.
 
 - Open a command line prompt
-- Use the sudo ifconfig command to find your IP address
+- Use the ```sudo ifconfig``` command to find your IP address
 - Write down (or memorize) your IP address
