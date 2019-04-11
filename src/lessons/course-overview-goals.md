@@ -4,38 +4,23 @@ title: 'Course Overview and Goals'
 ---
 
 ## Objectives and Overview
-
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
+This lesson covers the course structure and the big picture goals and core learning objectives. Additionally, it also includes the expectations that you can have from what is covered in the content as projects, as well as what an overview of what is expected of you in order to get the most from participating.
 
 ### Lesson Objectives
 
-- Understand the course structure and expectations
-- Understand the expectations of creating a website that is served on a Raspberry Pi and the general process of accomplishing this
+- Understand the course structure and learning objectives.
+- Understand the expectations of creating a website that is served on a Raspberry Pi and the general process of accomplishing this.
 
 ### CSTA Standards
 
 - **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-- **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-- **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-
 ---
 
-<!-- ## Facilitator Notes
+## Course Overview
 
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
+## Core Learning Objectives
 
---- -->
+## Expectations
 
-## Learning How to Learn
+## Capstone Project Overview
 
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
-
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
-
-## Allowing Room for Discovery
-
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
-
-## Peer Learning
-
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
