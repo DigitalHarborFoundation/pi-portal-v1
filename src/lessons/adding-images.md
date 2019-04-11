@@ -32,4 +32,7 @@ This lesson introduces the ```<img>``` element and how to it to include images o
 
 ## Linking to Images
 
+### Image Attribution
+
+
 ## Local and External Images
