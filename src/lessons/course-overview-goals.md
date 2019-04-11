@@ -31,8 +31,8 @@ There are several core technology skills that this course covers:
 
 ## Core Learning Objectives
 
-
 ## Expectations
 
 ## Capstone Project Overview
+
 
