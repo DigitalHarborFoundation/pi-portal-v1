@@ -18,21 +18,6 @@ title: 'Command Line Basics'
 
 ---
 
-<!-- ## Facilitator Notes
-
-This lesson contains a basic overview and walkthrough of how to use the command line on a Raspberry Pi. One of the key points is to highlight the importance of knowing how to use command line. Here are some benefits:
-
-- Ultimately allows for faster and more powerful interaction with the operating system
-- Useful to know for web/app development + server management as you won’t always have a GUI (graphical user interface) since you’ll often be remotely connecting to servers
-
-Youth are working in Unix: understanding these commands carries over to the Mac environment since both Mac and Linux are based on Unix. There are some distinctions but for the most part, youth are learning skills that transfer from the Pi to the Mac command line.
-
-This lesson also includes a walkthrough of the `apt-get` command. This is used to install, remove, and update software
-
-One ‘gotcha’ is that the `apt-get update` command isn’t what actually updates the software -- this command grabs a list of what software updates are available, and then the actual update is done via `apt-get dist-upgrade`.
-
---- -->
-
 ## What is the Command Line?
 
 The **Command Line Interface (CLI)** is a method of interacting and sending commands to the computer that predates a Graphical User Interface (GUI). Understanding and becoming familiar with the command-line is a valuable and increasingly required skill for developers.
@@ -75,7 +60,9 @@ This lesson is going to introduce commands that will mainly be used to move thro
 
 Adam Bouhmad has prepared this quick tutorial on command line basics. This will help get you familiarized with the terminal, and get you off to a good starting point:
 
-[video]
+<video width="600" height="400" controls>
+    <source src="https://dhf-website.s3.amazonaws.com/videos/Intro%20RaspPi%20-%20Basic%20Linux%20Commands.mp4"></source>
+</video>
 
 ## Linux Quick Reference
 
