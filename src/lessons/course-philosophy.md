@@ -52,11 +52,15 @@ We believe experience is the best teacher and that this is true for all learners
 
 ## Allowing Room for Discovery
 
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
+We can’t count on everything to work the first time we teach it, so we’re constantly poised to pivot. Again, this is where we rely on **experience, rather than expertise**. This allows our program staff and content developers to come together, and quickly brainstorm ways to navigate challenges with content or facilitation.
+
+You may experience this need to pivot while working through our content. We encourage you to feel free to do this and to adapt the content to your individual needs. With that said, we do recommend that you keep an eye on both the course's core objectives as well as the lesson objectives. Several of the lessons are marked as *Bonus Content*. These often include additional resources where you should feel free to explore, discover, and try new things.
 
 ## Peer Learning
 
-Lorem ipsum dolor amet pour-over blue bottle franzen, craft beer XOXO brooklyn irony DIY artisan. Chicharrones quinoa whatever crucifix selfies, flexitarian narwhal bespoke af activated charcoal shabby chic keytar squid. Crucifix gastropub PBR&B thundercats pitchfork godard mixtape. Trust fund cold-pressed disrupt ramps, selfies cardigan try-hard chartreuse.
+We believe strongly in youth and facilitators working side-by-side as learners engaged in pursuing new skills. In the same way that we speak and work with our youth as equals, we hold our staff to similar standards. While we are a highly collaborative and energetic group, we expect our staff to take charge of their learning too. This looks similar to how our youth develop: put all you’ve got into learning and practicing something on your own, knowing that there’s support if/when you need it.
+
+Collaboration and co-learning is a core aspect of our courses and programs. One of the most effective ways to solidify new technology skills is to teach someone else. Often someone who has only recently learned a new skill is able to explain a concept in a more accessible way since the feelings of not understanding the skill are much more recent. We strongly encourage this atmosphere and love to see youth explaining concepts, especially to facilitators. 
 
 ## Always Be Learning
 
