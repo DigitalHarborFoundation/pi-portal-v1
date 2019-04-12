@@ -3,9 +3,26 @@ slug: '/git-version-control'
 title: 'Git and Version Control'
 ---
 
+## Objectives and Overview
+
+This lesson introduces the concept of version control and the core technology Git. You'll learn some key Git terminology, work through an activity where you create a local repos, and then create a repository for your website.
+
+### Lesson Objectives
+
+- Understand and explain the benefits of version control and how it impacts programmers.
+- Recognize and explain key Git terminology.
+- Demonstrate an understanding of the Git workflow by creating a repository, tracking changes to files, and committing your changes.
+
+### CSTA Standards
+
+- **2-NI-05** - Explain how physical and digital security measures protect electronic information.
+- **2-AP-19** - Document programs in order to make them easier to follow, test, and debug.
+
+---
+
 ## What is Version Control?
 
-**Version control** is a system for recording changes to files or groups of files over time that allows you to revert back to previous versions of your files whenever you need. This is critical for programmers -- being able to track every modification not only helps maintain your own code but enables you to work collaboratively on projects. This is a core technology in the open source community as it boosts collaboration on projects across the world.
+**Version control** is a system for recording changes to files or groups of files over time that allows you to revert back to previous versions of your files whenever you need. This is critical for programmers. Being able to track every modification not only helps maintain your own code but enables you to work collaboratively on projects. This is a core technology in the open source community as it boosts collaboration on projects across the world.
 
 ### Why Is This Helpful?
 
