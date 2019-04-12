@@ -4,6 +4,7 @@ title: 'Loading Content Onto a Server'
 ---
 
 ## Objectives and Overview
+
 Once you have an understanding of the basic HTML tags and elements, the next area of focus is creating page structures with HTML. This lesson includes examples of basic HTML layouts, however you should use these as inspiration and always let content needs guide your layout and structure.
 
 ### Lesson Objectives
@@ -14,7 +15,28 @@ Once you have an understanding of the basic HTML tags and elements, the next are
 
 ### CSTA Standards
 
-- **2-AP-13** - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
+- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
+- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet
 
 ---
+
+## Setting Up the Server
+
+Your web content needs to be in a specific location in order for the server to know what content to respond with. If your content isn’t in the correct location the server won’t send the content in the response. Additionally, you need to make sure that your server configuration is correct and matches the content location. Much of the troubleshooting that you may need to do stems from these areas. Often a file isn’t placed in the correct location, or the configuration doesn’t match with the file locations. Sometimes, even a small typo can cause your server to have errors!
+
+## Default Web Page
+
+Apache has a default web page that is served once you set up the server software. Seeing this initial web page often provides great relief after you’ve been working to install and configure a server. Here’s an image of the Apache default web page:
+
+![Apache2 Debian Default Page](../images/apache-default-page.jpg)
+
+If you open up http://localhost/ on your Pi, or have someone navigate to your Pi’s IP address, they’ll see the Apache default page. If they don’t, then you know that you may need to do some additional troubleshooting. The default page is a good visual checkpoint to make sure that your server is correctly serving content.
+
+## Default Web Page Location
+
+You may now be wondering where these default pages come from. They are html (or sometimes php) files stored in a specific location that the web server is configured to point to. The specific default page is an _index.html_ file located in the directory. Apache serves the default web page from the _/var/www/html/_ directory. Let’s navigate to that directory:
+
+Open a terminal and use cd to change directory to the proper location — ask for help if you forget how to do this!
+Once in the _/var/www/html/_ folder, list out the files with `ls`.
+
+You should see an _index.html_ file! This is the default web page.

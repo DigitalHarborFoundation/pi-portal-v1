@@ -4,6 +4,7 @@ title: 'Introducing SSH'
 ---
 
 ## Objectives and Overview
+
 Once you have an understanding of the basic HTML tags and elements, the next area of focus is creating page structures with HTML. This lesson includes examples of basic HTML layouts, however you should use these as inspiration and always let content needs guide your layout and structure.
 
 ### Lesson Objectives
