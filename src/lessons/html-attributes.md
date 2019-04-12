@@ -5,9 +5,12 @@ title: 'HTML Attributes'
 
 ## Objectives and Overview
 
+This lesson provides an overview of HTML attributes. You'll take a look at some common HTML attributes such as classes and ids. Additionally, this lesson contains examples about setting HTML attributes.
+
 ### Lesson Objectives
 
 - Be able to explain what an HTML attribute is and describe common uses.
+- Understand and explain how to set attributes on HTML elements.
 
 ### CSTA Standards
 
@@ -66,6 +69,4 @@ The **id** of an element can be set in the following way:
 
 Id attributes are even more precise than class attributes, as they target only one unique element at a time. Regardless of which type of element they appear on, id attribute values can only be used **once per page**.
 
-You'll want to reserve using id attributes for specific purposes, typically related to JavaScript interaction.
-
-You’ll use the id and class attributes more when you get to the CSS lesson.
+While you'll see ids being used for CSS, it's typically considered a best practice to only use classes for CSS. You'll want to reserve using id attributes for specific purposes, typically related to JavaScript interaction.
