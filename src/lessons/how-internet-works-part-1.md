@@ -4,19 +4,19 @@ title: 'How the Internet Works: Part 1'
 ---
 
 ## Objectives and Overview
-...
+
+This lesson introduces IP addresses and provides steps for locating your Raspberry Pi's IP address. Additionally there is a brief introduction to DNS and the role that DNS has in serving and accessing websites.
 
 ### Lesson Objectives
 
 - Explain the difference between internal and external IP addresses.
-- Discover the role that DNS plays in connecting domain names and server IP addresses. 
+- Discover the role that DNS plays in connecting domain names and server IP addresses.
 - Identify your Raspberry Pi’s IP address.
- 
 
 ### CSTA Standards
 
 - **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet.
-- 
+
 ---
 
 ## IP Addresses
@@ -31,13 +31,13 @@ There are two main ways to find your IP address. The first requires a display, 
 
 ### Finding Your IP Address
 
-There is a command line command that finds your Pi's IP address. Open up the Terminal application in your Pi. Next, type the following command: ```sudo ifconfig```. 
+There is a command line command that finds your Pi's IP address. Open up the Terminal application in your Pi. Next, type the following command: `sudo ifconfig`.
 
 This will return your Pi's IP address. Check out this screenshot taken from Adafruit's blog:
 
 ![Terminal output from running 'sudo ifconfig' -- Taken from Adafruit's Learn blog](../images/raspberry-pi-ifconfig-adafruit-example.jpg)
 
-This command returns lots of information. Your IP address is found in the ```wlan0``` section next to the ```inet addr```. In the above example, the Pi's IP address is ```192.168.1.10```.
+This command returns lots of information. Your IP address is found in the `wlan0` section next to the `inet addr`. In the above example, the Pi's IP address is `192.168.1.10`.
 
 ## DNS
 
@@ -54,5 +54,5 @@ Here is some additional reading on the history of DNS: [Link to the article 'Wh
 The objective of this quick activity is to determine your Pi's IP address. This process is fairly quick and can be done by following the steps (or video) outlined in this lesson.
 
 - Open a command line prompt
-- Use the ```sudo ifconfig``` command to find your IP address
+- Use the `sudo ifconfig` command to find your IP address
 - Write down (or memorize) your IP address
