@@ -58,11 +58,11 @@ Now that you’ve reviewed some of the HTML basics, it’s time to jump into one
 
 The **class** of an element can be set in the following way:
 
-```<div class="image-container"></div>`
+`<div class="image-container"></div>`
 
 The **id** of an element can be set in the following way:
 
-```<div class="hidden-content></div>`
+`<div class="hidden-content></div>`
 
 Id attributes are even more precise than class attributes, as they target only one unique element at a time. Regardless of which type of element they appear on, id attribute values can only be used **once per page**.
 
