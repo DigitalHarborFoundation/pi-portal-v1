@@ -5,7 +5,12 @@ title: 'Setting Up a Local IP Address'
 
 ## Objectives and Overview
 
+This lesson briefly outlines the differences between _dynamic_ and _static_ local IP addresses. Additionally, you'll work through an activity to set a static IP address for your Raspberry Pi.
+
 ### Lesson Objectives
+
+- Understand and explain the differences between a dynamic and static local IP address.
+- Demonstrate the ability to set a static IP address for a Raspberry Pi.
 
 ### CSTA Standards
 
