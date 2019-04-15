@@ -4,17 +4,38 @@ title: 'Setting Up a Local IP Address'
 ---
 
 ## Objectives and Overview
-Once you have an understanding of the basic HTML tags and elements, the next area of focus is creating page structures with HTML. This lesson includes examples of basic HTML layouts, however you should use these as inspiration and always let content needs guide your layout and structure.
 
 ### Lesson Objectives
 
-- Understand how to use the HTML anchor `<a>` tag to link to another webpage.
-- Explain the structure of the HTML anchor tag and how it’s used to create hyperlinks.
-- Demonstrate the ability to add links to a webpage by linking to another page using the anchor tag.
-
 ### CSTA Standards
 
-- **2-AP-13** - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
+- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
+- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet
 
 ---
+
+## Static vs. Dynamic Local IP Addresses
+
+When you connect your Pi to the local network - such as the WiFi in your learning environment - your local IP address may be different each time. This is because the IP address is _dynamic_, which means that it changes. In order to have some consistency, you’re going to need to configure it to be static, which means unchanging. This will save you from needing to use `ifconfig` to determine your Pi’s local IP each time you connect to the network. The process is straightforward, so let’s jump in.
+
+## Activity: Setting Up a Static IP Address
+
+You’re going to use the nano editor to make some configuration changes. Remember, the nano command opens a file and allows you to
+edit it. You’ll be working with an existing file, so this allows you to open the file and make some quick changes.
+
+### Steps:
+
+- Open the command prompt on your Pi
+- Use the following command: `sudo nano /etc/dhcpcd.conf`
+- You need admin access to edit this file, so you have to use `sudo`
+- This opens the _dhcpcd.conf_ file in nano and allows you to edit it
+- The _dhcpcd.conf_ file is the configuration file for the DHCP client — this configuration handles a lot of the resolution of IP address related tasks
+- Follow the rest of the tutorial provided by the Raspberry Pi Foundation:
+  - [Raspberry Pi Networking Lessons](https://www.raspberrypi.org/learning/networking-lessons/rpi-static-ip-address/)
+    - Start at Step 2 _Setting Up a Static Local IP_
+  - This tutorial contains great explanations and steps for configuring your static local IP address
+- Make sure to test that your Pi works! Follow the _Testing_ steps in the above link
+  - You can test yourself by typing the following command: `sudo reboot`
+    - This reboots your Pi. Only do this **AFTER** you’ve saved the changes to the _dhcpcd.conf_ file!
+- After the Pi reboots, type `ip a` and see if the IP you set shows up in the `wlan0` entry
+- If not, follow the Troubleshooting steps outlined in the above Raspberry Pi tutorial
