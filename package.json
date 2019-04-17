@@ -1,7 +1,6 @@
 {
   "name": "pi-portal-v1",
   "description": "Digital Harbor Foundation's Pi Portal v1.",
-  "version": "1.0",
   "author": "Jonathan Prozzi",
   "dependencies": {
     "@mdx-js/mdx": "^0.20.3",

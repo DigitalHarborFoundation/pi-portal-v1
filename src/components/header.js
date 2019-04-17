@@ -31,7 +31,7 @@ const SiteTitle = styled.p`
   display: flex;
   align-items: center;
   font-size: 2.25rem;
-  color: #ffffff;
+  color: #e5f8ff;
   padding: 2rem 0 2rem 0;
   margin: 0px;
 
