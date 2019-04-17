@@ -1,6 +1,5 @@
 {
   "name": "pi-portal-v1",
-  "private": true,
   "description": "Digital Harbor Foundation's Pi Portal v1.",
   "version": "1.0",
   "author": "Jonathan Prozzi",
