@@ -28,12 +28,9 @@ export const query = graphql`
   }
 `;
 
-const LessonTitle = styled.h1`
-  /* font-family: 'Avenir'; */
-`;
+const LessonTitle = styled.h1``;
 
 const LessonContainer = styled.main`
-  /* font-family: 'Avenir'; */
   display: flex;
   flex-direction: column;
   grid-area: content;
@@ -60,7 +57,7 @@ const LessonBody = styled.article`
 
   a {
     color: #0091c9;
-    font-family: Avenir;
+
     text-decoration: none;
     transition: color 0.5s ease;
   }

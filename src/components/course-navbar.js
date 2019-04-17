@@ -124,8 +124,11 @@ const CourseNavbarNav = styled.nav`
 `;
 
 const CourseNavList = styled.ul`
-  margin-left: 1.45rem;
-  padding: 5px;
+  /* margin-left: 1.45rem; */
+  padding-left: 0px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 `;
 
 const CourseNavEntry = styled.li`
