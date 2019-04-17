@@ -68,4 +68,8 @@ const LessonBody = styled.article`
     border-bottom: none;
     transition: color 0.5s ease;
   }
+
+  li {
+    line-height: 1.42;
+  }
 `;
