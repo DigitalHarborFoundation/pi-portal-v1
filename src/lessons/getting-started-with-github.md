@@ -46,4 +46,6 @@ Now you're ready to _push_ your local repository to GitHub! This is done through
 - Once you've done this, it's time to **push** your code to GitHub:
   - The command for this is `git push -u origin master`
 
-After completing this last step you'll need to wait a moment while your code is remotely sent to GitHub. You only need to add the `-u origin` flags on the initial push. Afterward, you just use `git push master`
+After completing this last step you'll need to wait a moment while your code is remotely sent to GitHub. You only need to add the `-u origin` flags on the initial push. Afterward, you just use `git push`.
+
+## Going Further
