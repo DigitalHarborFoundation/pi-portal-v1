@@ -28,6 +28,8 @@ const FooterWrapper = styled.div`
   flex-shrink: 0;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 0;
+  padding-top: 1rem;
   justify-content: center;
   background: rgba(69, 80, 84);
   width: 100%;
@@ -44,7 +46,7 @@ const FooterLink = styled.a`
 `;
 
 const FooterRights = styled.span`
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: normal;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -63,7 +65,7 @@ const FooterLinkContainer = styled.div`
 `;
 
 const FooterTagline = styled.span`
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: normal;
   padding-top: 1rem;
   padding-bottom: 2.4rem;

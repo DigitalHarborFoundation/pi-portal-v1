@@ -1,12 +1,13 @@
 import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
+
 import styled from 'styled-components';
 
 const Header = ({ siteTitle }) => (
-  <LogoWrapper>
-    <DHFTitle>{siteTitle}</DHFTitle>
-  </LogoWrapper>
+  <Masthead>
+    <SiteTitle>{siteTitle}</SiteTitle>
+  </Masthead>
 );
 export default Header;
 
@@ -18,24 +19,24 @@ Header.defaultProps = {
   siteTitle: ``,
 };
 
-const LogoWrapper = styled.div`
+const Masthead = styled.div`
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  /* background: rgba(45, 42, 42, 0.8); */
+  padding: 20px;
   background: rgba(69, 80, 84);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 100%;
-  @media only screen and (max-width: 1000px) {
-  }
 `;
+const SiteTitle = styled.p`
+  display: flex;
+  align-items: center;
+  font-size: 2.25rem;
+  color: #ffffff;
+  padding: 2rem 0 2rem 0;
+  margin: 0px;
 
-const DHFTitle = styled.h1`
-  font-size: 4.8rem;
-  font-weight: 300;
-  color: #e5f8ff;
   @media only screen and (max-width: 1000px) {
-    padding: 0 1rem;
+    font-size: 1.5rem;
+    margin-left: 50px;
   }
 `;

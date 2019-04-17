@@ -29,11 +29,11 @@ export const query = graphql`
 `;
 
 const LessonTitle = styled.h1`
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
 `;
 
 const LessonContainer = styled.main`
-  font-family: 'Avenir';
+  /* font-family: 'Avenir'; */
   display: flex;
   flex-direction: column;
   grid-area: content;
