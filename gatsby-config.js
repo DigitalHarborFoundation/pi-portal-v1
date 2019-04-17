@@ -81,6 +81,12 @@ module.exports = {
         icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: 'dhf-piportal',
+      },
+    },
     `gatsby-mdx`,
     `gatsby-plugin-offline`,
   ],
