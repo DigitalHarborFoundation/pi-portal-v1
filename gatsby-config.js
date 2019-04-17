@@ -84,7 +84,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: 'dhf-piportal',
+        bucketName: 'pi-portal.digitalharbor.org',
       },
     },
     `gatsby-mdx`,
