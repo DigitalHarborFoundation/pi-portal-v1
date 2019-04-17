@@ -31,14 +31,13 @@ export const query = graphql`
 const LessonTitle = styled.h1``;
 
 const LessonContainer = styled.main`
+  max-width: 50rem;
+  padding: 2rem;
+  margin: auto;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   grid-area: content;
-  margin-top: 0;
-  margin-left: 5rem;
-  margin-right: 5rem;
-  margin-bottom: 2rem;
-  padding-top: 2rem;
 `;
 
 const LessonBody = styled.article`
