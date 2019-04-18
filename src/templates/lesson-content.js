@@ -69,6 +69,6 @@ const LessonBody = styled.article`
   }
 
   li {
-    line-height: 1.42;
+    line-height: 1.42rem;
   }
 `;

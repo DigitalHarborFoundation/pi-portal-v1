@@ -47,10 +47,6 @@ const MainContent = styled.main`
   max-width: 960px;
   padding: '0px 1.0875rem 1.45rem';
   padding-top: 0;
-
-  li {
-    line-height: 1rem;
-  }
 `;
 
 const ContentContainer = styled.div`
