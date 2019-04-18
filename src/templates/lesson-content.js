@@ -37,6 +37,7 @@ const LessonContainer = styled.main`
   min-height: 100vh;
   max-width: 40rem;
   margin: 0 auto;
+  padding-top: 2rem;
   background: red;
   grid-area: content;
 `;
