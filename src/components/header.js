@@ -27,10 +27,10 @@ const Masthead = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background: #ffffff;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 `;
+
 const SiteTitle = styled.p`
   display: flex;
   align-items: center;
