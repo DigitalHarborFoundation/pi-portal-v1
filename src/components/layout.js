@@ -45,6 +45,7 @@ const MainContainer = styled.div`
 const MainContent = styled.main`
   margin: '0 auto';
   max-width: 960px;
+  min-height: 100vh;
   padding: '0px 1.0875rem 1.45rem';
   padding-top: 0;
 `;

@@ -1,17 +1,26 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
-import Layout from '../components/layout';
+
+import Header from '../components/header';
+import CourseNavbar from '../components/course-navbar';
+import Footer from '../components/footer';
+import '../components/layout.css';
 
 const LessonContent = props => {
   const { LessonItems } = props.data;
   return (
-    <Layout>
-      <LessonContainer>
-        <LessonTitle>{LessonItems.frontmatter.title} </LessonTitle>
-        <LessonBody dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
-      </LessonContainer>
-    </Layout>
+    <MainContainer>
+      <Header siteTitle="Pi Portal v1" />
+      <ContentContainer>
+        <CourseNavbar />
+        <LessonContainer>
+          <LessonTitle>{LessonItems.frontmatter.title} </LessonTitle>
+          <LessonBody dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
+        </LessonContainer>
+      </ContentContainer>
+      <Footer />
+    </MainContainer>
   );
 };
 
@@ -27,14 +36,42 @@ export const query = graphql`
     }
   }
 `;
+const MainContainer = styled.div`
+  display: grid;
+`;
+
+// const MainContent = styled.main`
+//   margin: '0 auto';
+//   max-width: 960px;
+//   min-height: 100vh;
+//   padding: '0px 1.0875rem 1.45rem';
+//   padding-top: 0;
+// `;
+
+const ContentContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:
+    'sidebar content'
+    'sidebar footer';
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'content'
+      'sidebar'
+      'footer';
+  }
+`;
 
 const LessonTitle = styled.h1``;
 
 const LessonContainer = styled.main`
   max-width: 50rem;
+  min-height: 100vh;
   padding: 2rem;
-  margin: auto;
-  margin-top: 0;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
   grid-area: content;
