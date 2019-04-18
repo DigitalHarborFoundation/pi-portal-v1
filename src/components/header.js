@@ -30,6 +30,7 @@ const Masthead = styled.div`
   background: #ffffff;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
+  grid-area: header;
 `;
 
 const SiteTitle = styled.p`

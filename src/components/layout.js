@@ -22,10 +22,8 @@ const Layout = ({ children }) => (
     render={data => (
       <MainContainer>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <ContentContainer>
-          <CourseNavbar />
-          {children}
-        </ContentContainer>
+        <CourseNavbar />
+        <ContentContainer>{children}</ContentContainer>
         <Footer />
       </MainContainer>
     )}
@@ -40,6 +38,18 @@ export default Layout;
 
 const MainContainer = styled.div`
   display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+   
+    @media only screen and (max-width: 1000px) {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+      "content"
+      "sidebar"
+      "footer"
 `;
 
 const MainContent = styled.main`
@@ -50,16 +60,4 @@ const MainContent = styled.main`
   padding-top: 0;
 `;
 
-const ContentContainer = styled.div`
-  display: grid;
-  grid-template-columns: 2fr 4fr;
-  grid-template-areas:
-    "sidebar content";
-   
-    @media only screen and (max-width: 1000px) {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-      "content"
-      "sidebar"
-      "footer"
-`;
+const ContentContainer = styled.div``;

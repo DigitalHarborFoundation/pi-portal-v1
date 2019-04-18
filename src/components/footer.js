@@ -34,6 +34,7 @@ const FooterWrapper = styled.div`
   width: 100%;
   padding: 1rem;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
+  grid-area: footer;
 `;
 
 const FooterLink = styled.a`
