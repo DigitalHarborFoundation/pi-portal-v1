@@ -216,6 +216,10 @@ const CourseNavbarContainer = styled.aside`
   flex-direction: column;
   grid-area: sidebar;
   margin-top: 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100vh;
 `;
 
 const CourseNavbarNav = styled.nav`

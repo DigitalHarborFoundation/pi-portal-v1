@@ -2,12 +2,6 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 
-import Header from '../components/header';
-import CourseNavbar from '../components/course-navbar';
-import Footer from '../components/footer';
-
-import '../components/layout.css';
-
 const LessonContent = props => {
   const { LessonItems } = props.data;
   return (
