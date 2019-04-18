@@ -61,7 +61,7 @@ const CourseNavbar = () => (
           <AccordionItem>
             <AccordionItemTitle className="accordion__title accordion__title--animated">
               <div className="u-position-relative">
-                <ModuleTitle>HTML Basics</ModuleTitle>
+                <ModuleTitle>Working With HTML</ModuleTitle>
                 <div className="accordion__arrow" role="presentation" />
               </div>
             </AccordionItemTitle>
@@ -97,6 +97,108 @@ const CourseNavbar = () => (
               <CourseNavEntry>
                 <CourseNavLink to="/lessons/creating-page-structure-with-html">
                   Creating a Page Structure With HTML
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>Working With CSS</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/css-basics-part-1">
+                  CSS Basics: Part 1
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/css-page-layout-part-1">
+                  CSS for Page Layout: Part 1
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>Designing for Users</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/creating-wireframe">
+                  Creating a Wireframe
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>Navigating in Linux</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/command-line-basics">
+                  Command Line Basics
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/introducing-ssh">
+                  Introducing SSH
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+          </AccordionItem>
+          <AccordionItem>
+            <AccordionItemTitle className="accordion__title accordion__title--animated">
+              <div className="u-position-relative">
+                <ModuleTitle>Setting Up a Server</ModuleTitle>
+                <div className="accordion__arrow" role="presentation" />
+              </div>
+            </AccordionItemTitle>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/how-internet-works-part-1">
+                  How the Internet Works: Part 1
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/how-internet-works-part-2">
+                  How the Internet Works: Part 2
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/loading-content-onto-server">
+                  Loading Content Onto a Server
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/setting-up-local-ip-address">
+                  Setting Up a Local IP Address
+                </CourseNavLink>
+              </CourseNavEntry>
+            </AccordionItemBody>
+            <AccordionItemBody>
+              <CourseNavEntry>
+                <CourseNavLink to="/lessons/accessing-your-site">
+                  Accessing Your Site
                 </CourseNavLink>
               </CourseNavEntry>
             </AccordionItemBody>
