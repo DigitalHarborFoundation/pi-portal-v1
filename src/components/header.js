@@ -29,6 +29,7 @@ const Masthead = styled.div`
   align-items: center;
   background: #ffffff;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 `;
 
 const SiteTitle = styled.p`

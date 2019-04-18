@@ -24,17 +24,16 @@ const Footer = () => (
 export default Footer;
 
 const FooterWrapper = styled.div`
+  margin-top: 2rem;
   display: flex;
   flex-shrink: 0;
   flex-direction: row;
   align-items: center;
-  padding-bottom: 0;
-  padding-top: 1rem;
   justify-content: center;
   background: #ffffff;
   width: 100%;
+  padding: 1rem;
   border-top: 2px solid rgba(0, 0, 0, 0.1);
-  grid-area: footer;
 `;
 
 const FooterLink = styled.a`
@@ -70,8 +69,6 @@ const FooterLinkContainer = styled.div`
 const FooterTagline = styled.span`
   font-size: 1.5rem;
   font-weight: normal;
-  padding-top: 1rem;
-  padding-bottom: 2.4rem;
   color: #000000;
   @media only screen and (max-width: 1000px) {
     margin: 0 auto;

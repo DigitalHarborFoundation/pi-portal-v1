@@ -26,6 +26,7 @@ const Layout = ({ children }) => (
           <CourseNavbar />
           {children}
         </ContentContainer>
+        <Footer />
       </MainContainer>
     )}
   />
@@ -53,8 +54,7 @@ const ContentContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 4fr;
   grid-template-areas:
-    "sidebar content"
-    "sidebar footer";
+    "sidebar content";
    
     @media only screen and (max-width: 1000px) {
       grid-template-columns: 1fr;
