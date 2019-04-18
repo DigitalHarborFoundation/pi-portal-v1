@@ -20,17 +20,20 @@ export default SiteNavbar;
 const SiteNavContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
 `;
 
 const SiteNavList = styled.ul`
-  padding-left: 0px;
+  padding-left: 0;
+  margin-bottom: 0;
 `;
 
 const SiteNavEntry = styled.li`
   list-style-type: none;
   display: inline;
-  padding: 2rem;
+  padding: 0 2rem;
 `;
 
 const SiteNavLink = styled(Link)`

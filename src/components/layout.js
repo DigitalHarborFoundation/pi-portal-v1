@@ -24,9 +24,8 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <ContentContainer>
           <CourseNavbar />
-          <MainContent>{children}</MainContent>
+          {children}
         </ContentContainer>
-        <Footer />
       </MainContainer>
     )}
   />
@@ -52,7 +51,7 @@ const MainContent = styled.main`
 
 const ContentContainer = styled.div`
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 2fr 4fr;
   grid-template-areas:
     "sidebar content"
     "sidebar footer";
