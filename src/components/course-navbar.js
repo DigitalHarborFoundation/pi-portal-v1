@@ -216,15 +216,10 @@ const CourseNavbarContainer = styled.aside`
   flex-direction: column;
   grid-area: sidebar;
   margin-top: 2rem;
-  position: sticky;
-  top: 0;
-  left: 0;
-  height: 100vh;
 `;
 
 const CourseNavbarNav = styled.nav`
   display: inline-block;
-  margin: 0px;
   padding: 0px;
 `;
 
@@ -246,6 +241,7 @@ const CourseNavEntry = styled.li`
 const CourseNavLink = styled(Link)`
   list-style-type: none;
   padding-bottom: 5px;
+  font-size: 1rem;
   margin-bottom: 0px;
   margin-left: 0px;
   color: #0091c9;
@@ -264,6 +260,6 @@ const ModuleTitle = styled.p`
   margin-bottom: 10px;
   margin-left: 0px;
   padding-right: 3rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: bolder;
 `;

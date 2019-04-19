@@ -38,7 +38,7 @@ const LessonContainer = styled.main`
 const LessonBody = styled.article`
   display: flex;
   flex-direction: column;
-
+  font-size: 1rem;
   img {
     width: auto !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
@@ -65,5 +65,8 @@ const LessonBody = styled.article`
 
   li {
     line-height: 1.42rem;
+  }
+  p {
+    font-size: 1rem;
   }
 `;

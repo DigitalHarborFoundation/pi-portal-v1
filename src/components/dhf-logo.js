@@ -18,7 +18,7 @@ const SiteLogoContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: -2px;
-  padding: 0px;
+  padding-left: 10px;
 `;
 
 const SiteLogoImg = styled.img`

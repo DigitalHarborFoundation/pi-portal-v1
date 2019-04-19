@@ -42,6 +42,7 @@ const SiteNavLink = styled(Link)`
   margin-bottom: 0px;
   margin-left: 0px;
   color: #0091c9;
+  font-size: 1rem;
   text-decoration: none;
   transition: color 1s ease;
 
