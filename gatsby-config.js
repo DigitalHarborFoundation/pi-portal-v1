@@ -68,11 +68,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Pi Portal v1`,
+        short_name: `pi-portal-v1`,
         start_url: `/`,
-        background_color: `#F5FCFF`,
-        theme_color: `#F5FCFF`,
+        background_color: `#fafafa`,
+        theme_color: `#0091c9`,
         display: `minimal-ui`,
         icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
       },
