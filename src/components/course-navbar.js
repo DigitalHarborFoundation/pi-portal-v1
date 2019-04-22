@@ -12,8 +12,8 @@ import 'react-accessible-accordion/dist/fancy-example.css';
 const CourseNavbar = () => (
   <CourseNavbarContainer>
     <CourseNavbarNav>
-      <CourseNavList>
-        <Accordion>
+      <Accordion>
+        <CourseNavList>
           <CourseNavEntry>
             <AccordionItem expanded={true}>
               <AccordionItemTitle className="accordion__title accordion__title--animated">
@@ -28,11 +28,9 @@ const CourseNavbar = () => (
                 </CourseNavLink>
               </AccordionItemBody>
               <AccordionItemBody>
-                <CourseNavEntry>
-                  <CourseNavLink to="/lessons/course-overview-goals">
-                    Course Overview and Goals
-                  </CourseNavLink>
-                </CourseNavEntry>
+                <CourseNavLink to="/lessons/course-overview-goals">
+                  Course Overview and Goals
+                </CourseNavLink>
               </AccordionItemBody>
             </AccordionItem>
           </CourseNavEntry>
@@ -203,8 +201,8 @@ const CourseNavbar = () => (
               </CourseNavEntry>
             </AccordionItemBody>
           </AccordionItem>
-        </Accordion>
-      </CourseNavList>
+        </CourseNavList>
+      </Accordion>
     </CourseNavbarNav>
   </CourseNavbarContainer>
 );
@@ -225,10 +223,7 @@ const CourseNavbarNav = styled.nav`
 
 const CourseNavList = styled.ul`
   /* margin-left: 1.45rem; */
-  padding-left: 0px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 0px;
 `;
 
 const CourseNavEntry = styled.li`
