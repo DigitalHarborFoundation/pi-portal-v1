@@ -183,18 +183,6 @@ const CourseNavbarNav = styled.nav`
   padding: 0px;
 `;
 
-const CourseNavList = styled.ul`
-  /* margin-left: 1.45rem; */
-  padding: 0px;
-`;
-
-const CourseNavEntry = styled.li`
-  list-style-type: none;
-  /* padding-bottom: 5px; */
-  margin-bottom: 0px;
-  /* margin-left: 1.25rem; */
-`;
-
 const CourseNavLink = styled(Link)`
   list-style-type: none;
   padding-bottom: 5px;
