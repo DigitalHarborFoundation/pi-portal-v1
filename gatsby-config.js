@@ -21,7 +21,13 @@ module.exports = {
         path: `${__dirname}/src/lessons`,
       },
     },
-    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    }`gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
