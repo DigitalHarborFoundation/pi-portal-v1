@@ -50,15 +50,14 @@ const LessonBody = styled.article`
   }
 
   a {
-    color: #0091c9;
+    color: #63686b;
 
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.5s ease;
   }
 
   a:hover {
-    color: black;
-    text-decoration: none;
+    color: #000000;
     border-bottom: none;
     transition: color 0.5s ease;
   }
