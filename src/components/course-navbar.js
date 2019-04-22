@@ -254,12 +254,6 @@ const CourseNavLink = styled(Link)`
   text-decoration: none;
   transition: color 0.5s ease;
 
-  ${props =>
-    activeStyle &&
-    css`
-      color: palevioletred;
-    `}
-
   &:hover {
     color: #000000;
     text-decoration: none;
