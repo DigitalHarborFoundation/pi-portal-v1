@@ -6,7 +6,10 @@ import logo from '../images/medium-lockup-black.svg';
 const DHFLogo = () => (
   <SiteLogoContainer>
     <Link to="/">
-      <SiteLogoImg src={logo} />
+      <SiteLogoImg
+        src={logo}
+        alt="Digital Harbor Foundation name and anchor logo"
+      />
     </Link>
   </SiteLogoContainer>
 );
