@@ -9,6 +9,10 @@ import {
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
 
+const activeStyles = {
+  color: '#e96544',
+};
+
 const CourseNavbar = () => (
   <CourseNavbarContainer>
     <CourseNavbarNav>
@@ -21,12 +25,18 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/course-philosophy">
+            <CourseNavLink
+              to="/lessons/course-philosophy"
+              activeStyle={activeStyles}
+            >
               Course Philosophy
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/course-overview-goals">
+            <CourseNavLink
+              to="/lessons/course-overview-goals"
+              activeStyle={activeStyles}
+            >
               Course Overview and Goals
             </CourseNavLink>
           </AccordionItemBody>
@@ -39,12 +49,18 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/raspberry-pi-basics">
+            <CourseNavLink
+              to="/lessons/raspberry-pi-basics"
+              activeStyle={activeStyles}
+            >
               Raspberry Pi Basics
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/raspberry-pi-hardware-overview">
+            <CourseNavLink
+              to="/lessons/raspberry-pi-hardware-overview"
+              activeStyle={activeStyles}
+            >
               Raspberry Pi: Hardware Overview
             </CourseNavLink>
           </AccordionItemBody>
@@ -57,27 +73,42 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/html-basics-part-1">
+            <CourseNavLink
+              to="/lessons/html-basics-part-1"
+              activeStyle={activeStyles}
+            >
               HTML Basics: Part 1
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/html-attributes">
+            <CourseNavLink
+              to="/lessons/html-attributes"
+              activeStyle={activeStyles}
+            >
               HTML Attributes
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/adding-images">
+            <CourseNavLink
+              to="/lessons/adding-images"
+              activeStyle={activeStyles}
+            >
               Adding Images
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/linking-betweeen-pages">
+            <CourseNavLink
+              to="/lessons/linking-betweeen-pages"
+              activeStyle={activeStyles}
+            >
               Linking Between Pages
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/creating-page-structure-with-html">
+            <CourseNavLink
+              to="/lessons/creating-page-structure-with-html"
+              activeStyle={activeStyles}
+            >
               Creating a Page Structure With HTML
             </CourseNavLink>
           </AccordionItemBody>
@@ -90,12 +121,18 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/css-basics-part-1">
+            <CourseNavLink
+              to="/lessons/css-basics-part-1"
+              activeStyle={activeStyles}
+            >
               CSS Basics: Part 1
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/css-page-layout-part-1">
+            <CourseNavLink
+              to="/lessons/css-page-layout-part-1"
+              activeStyle={activeStyles}
+            >
               CSS for Page Layout: Part 1
             </CourseNavLink>
           </AccordionItemBody>
@@ -108,7 +145,10 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/creating-wireframe">
+            <CourseNavLink
+              to="/lessons/creating-wireframe"
+              activeStyle={activeStyles}
+            >
               Creating a Wireframe
             </CourseNavLink>
           </AccordionItemBody>
@@ -121,12 +161,18 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/command-line-basics">
+            <CourseNavLink
+              to="/lessons/command-line-basics"
+              activeStyle={activeStyles}
+            >
               Command Line Basics
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/introducing-ssh">
+            <CourseNavLink
+              to="/lessons/introducing-ssh"
+              activeStyle={activeStyles}
+            >
               Introducing SSH
             </CourseNavLink>
           </AccordionItemBody>
@@ -139,27 +185,42 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/how-internet-works-part-1">
+            <CourseNavLink
+              to="/lessons/how-internet-works-part-1"
+              activeStyle={activeStyles}
+            >
               How the Internet Works: Part 1
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/how-internet-works-part-2">
+            <CourseNavLink
+              to="/lessons/how-internet-works-part-2"
+              activeStyle={activeStyles}
+            >
               How the Internet Works: Part 2
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/loading-content-onto-server">
+            <CourseNavLink
+              to="/lessons/loading-content-onto-server"
+              activeStyle={activeStyles}
+            >
               Loading Content Onto a Server
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/setting-up-local-ip-address">
+            <CourseNavLink
+              to="/lessons/setting-up-local-ip-address"
+              activeStyle={activeStyles}
+            >
               Setting Up a Local IP Address
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
-            <CourseNavLink to="/lessons/accessing-your-site">
+            <CourseNavLink
+              to="/lessons/accessing-your-site"
+              activeStyle={activeStyles}
+            >
               Accessing Your Site
             </CourseNavLink>
           </AccordionItemBody>
@@ -192,6 +253,12 @@ const CourseNavLink = styled(Link)`
   color: #63686b;
   text-decoration: none;
   transition: color 0.5s ease;
+
+  ${props =>
+    activeStyle &&
+    css`
+      color: palevioletred;
+    `}
 
   &:hover {
     color: #000000;
