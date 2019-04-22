@@ -41,13 +41,13 @@ const SiteNavLink = styled(Link)`
   padding-bottom: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
-  color: #000000;
+  color: #63686b;
   font-size: 1rem;
   text-decoration: none;
-  transition: color 1s ease;
+  transition: color 0.5s ease;
 
   &:hover {
-    color: black;
+    color: #000000;
     text-decoration: none;
     cursor: pointer;
     border-bottom: none;
