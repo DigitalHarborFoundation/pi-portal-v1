@@ -1,11 +1,16 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
+import SEO from '../components/seo';
 
 const LessonContent = props => {
   const { LessonItems } = props.data;
   return (
     <LessonContainer>
+      <SEO
+        title={`Pi Portal: ${LessonItems.frontmatter.title}`}
+        keywords={[`gatsby`, `application`, `react`]}
+      />
       <LessonTitle>{LessonItems.frontmatter.title} </LessonTitle>
       <LessonBody dangerouslySetInnerHTML={{ __html: LessonItems.html }} />
     </LessonContainer>
