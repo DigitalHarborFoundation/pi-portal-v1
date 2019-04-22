@@ -27,7 +27,8 @@ module.exports = {
         name: `pages`,
         path: `${__dirname}/src/pages`,
       },
-    }`gatsby-transformer-sharp`,
+    },
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
