@@ -244,7 +244,7 @@ const CourseNavLink = styled(Link)`
   font-size: 1rem;
   margin-bottom: 0px;
   margin-left: 0px;
-  color: #0091c9;
+  color: #000000;
   text-decoration: none;
   transition: color 1s ease;
 
