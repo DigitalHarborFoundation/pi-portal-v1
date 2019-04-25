@@ -29,4 +29,7 @@ const SiteLogoImg = styled.img`
   height: 100%;
   margin: 0px;
   padding: 0px;
+  @media only screen and (max-width: 1000px) {
+    display: none;
+  }
 `;
