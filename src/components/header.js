@@ -40,6 +40,13 @@ const Masthead = styled.div`
     width: 100%;
     z-index: 1000;
   }
+
+  @media only screen and (max-width: 1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const SiteTitle = styled.p`

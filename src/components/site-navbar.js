@@ -53,4 +53,7 @@ const SiteNavLink = styled(Link)`
     cursor: pointer;
     border-bottom: none;
   }
+  @media only screen and (max-width: 1000px) {
+    padding-bottom: 0px;
+  }
 `;
