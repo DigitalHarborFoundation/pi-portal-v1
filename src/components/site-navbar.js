@@ -41,7 +41,8 @@ const SiteNavLink = styled(Link)`
   padding-bottom: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
-  color: #63686b;
+  /* color: #63686b; */
+  color: #ffffff;
   font-size: 1rem;
   text-decoration: none;
   transition: color 0.5s ease;

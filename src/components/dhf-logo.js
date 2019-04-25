@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
-import logo from '../images/medium-lockup-black.svg';
+import logo from '../images/medium-lockup-white.svg';
 
 const DHFLogo = () => (
   <SiteLogoContainer>

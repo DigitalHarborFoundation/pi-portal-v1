@@ -31,8 +31,9 @@ const Masthead = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: #ffffff;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  /* background: #ffffff; */
+  background: #0091c9;
+  /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
   margin-bottom: 2rem;
   grid-area: header;
 `;
@@ -42,7 +43,8 @@ const SiteTitle = styled.p`
   align-items: center;
   font-size: 2.25rem;
   /* color: #e5f8ff; */
-  color: #000000;
+  /* color: #000000; */
+  color: #ffffff;
   padding: 2rem 0 2rem 0;
   margin-right: 0;
   margin-top: 0;

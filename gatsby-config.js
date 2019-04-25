@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `DHF Pi Portal v1`,
+    title: `Pi Portal`,
     description: `Digital Harbor Foundation's Pi Portal project for the Pi Pilot project in Spring 2019.`,
     author: `@jonathanprozzi`,
   },
