@@ -239,15 +239,18 @@ const CourseNavbarContainer = styled.aside`
   grid-area: sidebar;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  position: fixed;
 
-  top: 100px;
-  left: 0px;
-  bottom: 2rem;
-  overflow-y: scroll;
-  min-height: 0;
-  height: calc(100% - 10rem);
-  z-index: 1;
+  @media only screen and (min-width: 1000px) {
+    position: fixed;
+
+    top: 100px;
+    left: 0px;
+    bottom: 2rem;
+    overflow-y: scroll;
+    min-height: 0;
+    height: calc(100% - 10rem);
+    z-index: 1;
+  }
 `;
 
 const CourseNavbarNav = styled.nav`

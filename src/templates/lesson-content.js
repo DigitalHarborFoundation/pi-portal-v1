@@ -39,12 +39,16 @@ const LessonContainer = styled.main`
   margin: 0 auto;
 
   grid-area: content;
+  @media only screen and (max-width: 1000px) {
+    padding: 2rem;
+  }
 `;
 
 const LessonBody = styled.article`
   display: flex;
   flex-direction: column;
   font-size: 1rem;
+
   img {
     width: auto !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;

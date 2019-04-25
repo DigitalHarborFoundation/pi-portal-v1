@@ -40,16 +40,18 @@ const MainContainer = styled.div`
   display: grid;
   grid-template-columns: 2fr 4fr;
   grid-template-areas:
-    "header header"
-    "sidebar content"
-    "footer footer";
-   
-    @media only screen and (max-width: 1000px) {
-      grid-template-columns: 1fr;
-      grid-template-areas:
-      "content"
-      "sidebar"
-      "footer"
+    'header header'
+    'sidebar content'
+    'footer footer';
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'header'
+      'content'
+      'sidebar'
+      'footer';
+  }
 `;
 
 const ContentArea = styled.div`

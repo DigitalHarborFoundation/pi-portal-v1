@@ -27,16 +27,19 @@ const Masthead = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
   /* background: #ffffff; */
   background: #0091c9;
   /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
   margin-bottom: 2rem;
   grid-area: header;
+
+  @media only screen and (min-width: 1000px) {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
 `;
 
 const SiteTitle = styled.p`
