@@ -6,10 +6,9 @@ import Image from '../components/image';
 import SEO from '../components/seo';
 
 const IndexPage = () => (
-  <Layout>
+  <React.Fragment>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Link to="/course/">Go to course page</Link>
-  </Layout>
+  </React.Fragment>
 );
 
 export default IndexPage;
