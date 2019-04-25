@@ -238,12 +238,7 @@ const CourseNavbarContainer = styled.aside`
   grid-area: sidebar;
   margin-top: 2rem;
   overflow-y: auto;
-  z-index: 10;
-  height: calc(100%);
-  background: rgb(255, 255, 255);
-  border-width: 0px 1px 0px 0px;
-  border-image: initial;
-  transition: opacity 350ms cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  height: 100%;
   border-right: 2px solid rgba(0, 0, 0, 0.1);
 `;
 
