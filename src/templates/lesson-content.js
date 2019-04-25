@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import SEO from '../components/seo';
+import Layout from '../components/layout';
 
 const LessonContent = props => {
   const { LessonItems } = props.data;
