@@ -34,12 +34,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-plugin-layout`,
-            options: {
-              component: require.resolve(`./src/components/layout`),
-            },
-          },
-          {
             resolve: `gatsby-remark-images`,
             options: {
               // Adjust based on determined max-width in the image container
@@ -71,6 +65,12 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-layout`,
+    //   options: {
+    //     component: require.resolve(`./src/components/layout`),
+    //   },
+    // },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
