@@ -27,6 +27,10 @@ const Masthead = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
   background: #ffffff;
   border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;

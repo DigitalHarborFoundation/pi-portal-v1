@@ -237,7 +237,10 @@ const CourseNavbarContainer = styled.aside`
   flex-direction: column;
   grid-area: sidebar;
   margin-top: 2rem;
-  overflow-y: auto;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  overflow-y: scroll;
   height: 100%;
   border-right: 2px solid rgba(0, 0, 0, 0.1);
 `;
