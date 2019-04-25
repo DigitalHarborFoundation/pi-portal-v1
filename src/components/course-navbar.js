@@ -234,15 +234,20 @@ export default CourseNavbar;
 
 const CourseNavbarContainer = styled.aside`
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   grid-area: sidebar;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   position: fixed;
+
   top: 100px;
   left: 0px;
+  bottom: 2rem;
   overflow-y: scroll;
-  height: 100%;
-  border-right: 2px solid rgba(0, 0, 0, 0.1);
+  min-height: 0;
+  height: calc(100% - 10rem);
+  z-index: 1;
 `;
 
 const CourseNavbarNav = styled.nav`

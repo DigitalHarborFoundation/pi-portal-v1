@@ -52,7 +52,7 @@ const MainContainer = styled.div`
       "footer"
 `;
 
-const MainContent = styled.main`
+const ContentArea = styled.div`
   margin: '0 auto';
   max-width: 960px;
   min-height: 100vh;
