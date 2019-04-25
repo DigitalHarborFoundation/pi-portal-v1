@@ -18,10 +18,10 @@ const Image = () => (
     query={graphql`
       query {
         placeholderImage: file(
-          relativePath: { eq: "medium-lockup-black.png" }
+          relativePath: { eq: "medium-lockup-white.svg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 400) {
               ...GatsbyImageSharpFluid
             }
           }
