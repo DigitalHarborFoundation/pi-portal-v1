@@ -12,9 +12,4 @@ Once you have an understanding of the basic HTML tags and elements, the next are
 - Explain the structure of the HTML anchor tag and how it’s used to create hyperlinks.
 - Demonstrate the ability to add links to a webpage by linking to another page using the anchor tag.
 
-### CSTA Standards
-
-- **2-AP-13** - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
-
 ---

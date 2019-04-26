@@ -11,11 +11,6 @@ title: 'Command Line Basics'
 - Use basic commands to navigate the file system of the Raspberry Pi.
 - Use the command line to update the Raspberry Pi’s software.
 
-### CSTA Standards
-
-- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
-- **2-CS-03** - Systematically identify and fix problems with computing devices and their components.
-
 ---
 
 ## What is the Command Line?

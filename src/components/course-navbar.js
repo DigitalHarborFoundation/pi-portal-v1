@@ -100,7 +100,7 @@ const CourseNavbar = () => (
           </AccordionItemBody>
           <AccordionItemBody>
             <CourseNavLink
-              to="/lessons/linking-betweeen-pages"
+              to="/lessons/linking-between-pages"
               activeStyle={activeStyles}
             >
               Linking Between Pages

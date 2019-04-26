@@ -4,17 +4,13 @@ title: 'Accessing Your Site'
 ---
 
 ## Objectives and Overview
-This lesson covers how to locally access your web content once it's being served by Apache. There is a review about how Apache looks for content, and an activity to make sure that you're able to access your content. Additionally, this lesson includes a section on creating folders for organizating your content in a larger site.
+This lesson covers how to locally access your web content once it's being served by Apache. There is a review about how Apache looks for content, and an activity to make sure that you're able to access your content. Additionally, this lesson includes a section on creating folders for organizing your content in a larger site.
 
 ### Lesson Objectives
+
 - Demonstrate the ability to serve and locally access your site's content.
 - Explain the importance of the */var/www/html/* folder, and how it relates to serving your website's content.
 - Understand and explain the process for creating folders within your Apache *DirectoryIndex*.
-
-### CSTA Standards
-
-- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
-- **2-IC-23** - Describe tradeoffs between allowing information to be public and keeping information private and secure.
 
 ---
 

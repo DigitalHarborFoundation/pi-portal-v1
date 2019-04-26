@@ -12,12 +12,7 @@ Once you have an understanding of the basic HTML tags and elements, the next are
 - Identify structural elements that can be contained in the `<body>` of an HTML document.
 - Understand and explain the purpose of using semantic HTML elements.
 - Recognize different semantic HTML structural elements.
-
-### CSTA Standards
-
-- **2-AP-13** - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
-
+  
 ---
 
 ## Page Structure Overview

@@ -12,11 +12,6 @@ This lesson briefly outlines the differences between _dynamic_ and _static_ loca
 - Understand and explain the differences between a dynamic and static local IP address.
 - Demonstrate the ability to set a static IP address for a Raspberry Pi.
 
-### CSTA Standards
-
-- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
-- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet
-
 ---
 
 ## Static vs. Dynamic Local IP Addresses

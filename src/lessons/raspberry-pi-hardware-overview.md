@@ -12,10 +12,6 @@ This lesson provides a virtual "tour" of the physical layout of a Raspberry Pi. 
 - Identify the hardware components on a Raspberry Pi and explain their role.
 - Identify how to attach peripherals to a Raspberry Pi and demonstrate this by setting up your Raspberry Pi.
 
-### CSTA Standards
-
-- **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-
 ---
 
 ### Raspberry Pi Layout

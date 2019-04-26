@@ -9,10 +9,6 @@ title: 'Loading Content Onto a Server'
 
 -
 
-### CSTA Standards
-
-- **2-CS-02** - Design projects that combine hardware and software components to collect and exchange data.
-- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet
 
 ---
 
