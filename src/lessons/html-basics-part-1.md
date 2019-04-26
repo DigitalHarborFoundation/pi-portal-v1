@@ -128,5 +128,7 @@ Additionally, comments allow you to effectively "turn off" a line, or lines, of 
 Here is an example of commented HTML:
 
 ```html
-<!-- I'm a multi-line HTML comment! Build good habits and practice commenting/uncommenting from the start! To comment in HTML you use <!-- [comment goes here] and end it with -->
+<!-- I'm a multi-line HTML comment! 
+Build good habits and practice commenting/uncommenting from the start! 
+To comment in HTML you use <!-- [comment goes here] and end it with -->
 ```
