@@ -11,7 +11,7 @@ This lesson covers the course structure and the big picture goals and core learn
 
 - Understand the course structure and learning objectives.
 - Understand the expectations of creating a website that is served on a Raspberry Pi and the general process of accomplishing this.
-- 
+
 ---
 
 ## Course Overview
