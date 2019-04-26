@@ -24,7 +24,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <CourseNavbar />
         {children}
-        <Footer />
       </MainContainer>
     )}
   />
