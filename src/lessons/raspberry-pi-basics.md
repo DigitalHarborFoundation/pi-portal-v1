@@ -27,7 +27,11 @@ A Raspberry Pi is a small, \$35 credit card sized computer that runs the Linux o
 
 ![Image of a Raspberry Pi 3 Model B](../images/rpi-3-from-site.jpg)
 
-Check out this introduction video from the [Raspberry Pi Foundation](https://www.raspberrypi.org)
+Raspberry Pi can interact with the physical world through the **GPIO pins**. GPIO stands for general purpose inputs and outputs, and this is where you can attach external devices such as motors, LEDS, and other sensors. This is outside the scope of this course, but this *physical computing* is one of the core strengths and appeals of the Pi.
+
+The [Raspberry Pi Foundation](https://www.raspberrypi.org) do lots of great work to support education and the community of educators, learners, tinkerers, and technologists using Raspberry Pi. They've created a great introductory video the provides a quick overview of the Pi.
+
+Check out the introduction video from the Raspberry Pi Foundation:
 
 <iframe src="https://www.youtube.com/embed/uXUjwk2-qx4" width="600" height="400" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe> 
  
