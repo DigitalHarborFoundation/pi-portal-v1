@@ -12,10 +12,6 @@ This lesson provides an overview
 - Explain what a server is and how websites are accessed by users.
 - Use the command line to install the Apache server software on your Raspberry Pi.
 
-### CSTA Standards
-
-- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet.
-
 ---
 
 ## Understanding Servers

@@ -11,10 +11,6 @@ title: 'Linking Between Pages'
 - Explain the structure of the HTML anchor tag and how it’s used to create hyperlinks.
 - Demonstrate the ability to add links to a webpage by linking to another page using the anchor tag.
 
-### CSTA Standards
-
-- Add these!
-
 ---
 
 ## Linking Between Pages

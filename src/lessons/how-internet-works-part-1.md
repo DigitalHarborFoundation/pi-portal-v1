@@ -13,10 +13,6 @@ This lesson introduces IP addresses and provides steps for locating your Raspber
 - Discover the role that DNS plays in connecting domain names and server IP addresses.
 - Identify your Raspberry Pi’s IP address.
 
-### CSTA Standards
-
-- **2-NI-04** - Model the role of protocols in transmitting data across networks and the Internet.
-
 ---
 
 ## IP Addresses

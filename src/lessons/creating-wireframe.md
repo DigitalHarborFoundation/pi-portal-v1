@@ -11,17 +11,9 @@ This lesson introduces wireframing, an important tool in the web design. The con
 
 - Understand the benefits of creating a wireframe for a web project and demonstrate this by creating a low-fidelity wireframe.
 - Practice your wireframing skills by sketching the layouts of existing websites.
-
-### CSTA Standards
-- **2-AP-10** - Use flowcharts and/or pseudocode to address complex problems as algorithms.
-- **2-AP-13** - Decompose problems and subproblems into parts to facilitate the design, implementation, and review of programs.
-- **2-AP-15** - Seek and incorporate feedback from team members and users to refine a solution that meets user needs.
-- **2-AP-17** - Systematically test and refine programs using a range of test cases.
-- **2-AP-19** - Document programs in order to make them easier to follow, test, and debug.
-- **2-DA-08** - Collect data using computational tools and transform the data to make it more useful and reliable.
-- **2-DA-09** - Refine computational models based on the data they have generated.
-
+  
 ---
+
 ## Creating a Wireframe
 
 Throughout this course you’re going to be practicing and integrating various design tools with the intention of building them into your workflow. The first skill that you’re going to use is **wireframing**. You’ll be creating low fidelity wireframes that will help you map out your site content and layout.

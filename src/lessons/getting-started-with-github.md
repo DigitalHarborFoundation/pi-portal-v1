@@ -7,12 +7,6 @@ title: 'Getting Started With GitHub'
 
 ### Lesson Objectives
 
-### CSTA Standards
-
-- **2-AP-15** - Seek and incorporate feedback from team members and users to refine a solution that meets user needs.
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
-- **2-AP-19** - Document programs in order to make them easier to follow, test, and debug.
-- **2-IC-23** - Describe tradeoffs between allowing information to be public and keeping information private and secure.
 
 ---
 

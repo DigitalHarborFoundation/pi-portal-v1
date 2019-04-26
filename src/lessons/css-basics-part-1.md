@@ -12,12 +12,6 @@ This lesson provides an overview of some terminology and provides a basic founda
 - Recognize, understand, and explain explain common CSS terminology such as selectors, rules, declarations, properties, and values.
 - Create a CSS stylesheet and link to it from an HTML document.
 
-### CSTA Standards
-
-- **2-AP-16** - Incorporate existing code, media, and libraries into original programs, and give attribution.
-- **2-AP-19** - Document programs in order to make them easier to follow, test, and debug.
-- **2-DA-07** - Represent data using multiple encoding schemes
-
 ---
 
 ## CSS Overview

@@ -15,10 +15,6 @@ This lesson introduces the Raspberry Pi and provides an overview of some of the 
 - Understand and explain the differences between a Raspberry Pi and an Arduino (and other microcontrollers).
 - Recognize example projects that use a Raspberry Pi.
 
-### CSTA Standards
-
-- **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-
 ---
 
 ### What is a Raspberry Pi?

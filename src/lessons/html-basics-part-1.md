@@ -14,11 +14,6 @@ Wings extraction cup extra frappuccino half and half medium rich. Shop, ristrett
 - Understand and explain how HTML relates to web page structure.
 - Demonstrate the ability to create a basic page layout with HTML.
 
-### CSTA Standards
-
-- **1B-AP-11** - Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.
-- **1B-AP-15** - Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.
-
 ---
 
 ## What is HTML?

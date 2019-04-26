@@ -12,11 +12,6 @@ This lesson provides an overview of HTML attributes. You'll take a look at some 
 - Be able to explain what an HTML attribute is and describe common uses.
 - Understand and explain how to set attributes on HTML elements.
 
-### CSTA Standards
-
-- **1B-AP-11** - Decompose (break down) problems into smaller, manageable subproblems to facilitate the program development process.
-- **1B-AP-15** - Test and debug (identify and fix errors) a program or algorithm to ensure it runs as intended.
-
 ---
 
 ## Introduction to HTML Attributes

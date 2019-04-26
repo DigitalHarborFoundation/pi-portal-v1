@@ -13,10 +13,6 @@ This lesson provides insight into Digital Harbor Foundation's philosphy behind d
 - Recognize the role that active discovery has in building confidence with new technology.
 - Review the emergence of new technology over the years and how building core learning skills prepares learners for future skill development.
 
-### CSTA Standards
-
-- **2-IC-20** - Compare tradeoffs associated with computing technologies that affect people's everyday activities and career options.
-
 ---
 ## About This Content
 

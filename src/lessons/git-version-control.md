@@ -13,11 +13,6 @@ This lesson introduces the concept of version control and the core technology Gi
 - Recognize and explain key Git terminology.
 - Demonstrate an understanding of the Git workflow by creating a repository, tracking changes to files, and committing your changes.
 
-### CSTA Standards
-
-- **2-NI-05** - Explain how physical and digital security measures protect electronic information.
-- **2-AP-19** - Document programs in order to make them easier to follow, test, and debug.
-
 ---
 
 ## What is Version Control?
