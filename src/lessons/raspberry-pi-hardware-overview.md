@@ -78,8 +78,18 @@ The process for connecting peripherals to a Raspberry Pi is straightforward but 
 
 If you have experience setting up a desktop computer, you've likely been through the process of connecting the monitor, keyboard, and mouse.
 
+The biggest 'gotcha' for connecting peripherals is that the **order matters**! This is one of the most common problem areas for setting up the Pi, and is something to be aware of for troubleshooting purposes. Typically, any hardware peripheral that is connected to the Pi *after the Pi is booted* won't be detected and usable until after rebooting. 
+
+For example, if you're using your Pi without a mouse and decide you to use one and connect it to the USB port, you won't be able to use the mouse until after rebooting. 
+
+Generally, the order for attaching peripherals is this:
+1. Unplug the Pi power supply
+2. Connect **all** peripherals that you want to use (keyboard, mouse, monitor, etc.)
+3. Plug in the Pi!
 
 The Raspberry Pi Foundation has provided an animated GIF showing the order peripherals should be attached. Here is the animation of the peripheral setup process:
 
 ![Raspberry Pi Foundation animated GIF showing peripheral setup process](../images/rpi-plug-in.gif)
 *Animation Credit: The Raspberry Pi Foundation*
+
+As you're working through the course, you may want to periodically check back to this lesson as a refresher. Often many hardware issues result from issues described in this lesson. If you experience any of these common hardware issues, don't panic! Try to remember these steps and troubleshoot the issue yourself -- or at least try to identify the potential issue.
