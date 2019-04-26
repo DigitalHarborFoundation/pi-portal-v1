@@ -5,18 +5,18 @@ title: 'Course Philosophy'
 
 ## Objectives and Overview
 
-This lesson provides insight into Digital Harbor Foundation's philosphy behind designing this course and how it informs the delivery and learning methods involved in the course. One core goal is to recognize the importance and emphasis of active discovery and experimentaiton plays in building confidence. 
+This lesson provides insight into Digital Harbor Foundation's philosophy behind designing this course and how it informs the delivery and learning methods involved in the course. One core goal is to recognize the importance and emphasis of active discovery and experimentation plays in building confidence. 
 
 ### Lesson Objectives
 
 - Identify the philosophy behind designing the course and how that informs delivery and learning methods.
 - Recognize the role that active discovery has in building confidence with new technology.
-- Review the emergence of new technology over the years and how building core learning skills prepares learners for future skill development.
+- Review the emergence of new technology over the years and how building core learning skills prepare learners for future skill development.
 
 ---
 ## About This Content
 
-In Spring 2019, DHF published a report about our approach to learning and program design. Mary Reisenwitz, our Special Projects Manager, wrote a thorough report about our organization's core values and how they inform what we do. 
+In Spring 2019, DHF published a report about our approach to learning and program design. Mary Reisenwitz, DHF's Special Projects Manager, wrote a thorough report about our organization's core values and how they inform what we do.
 
 Mary is the author of much of the content in this lesson. If you're interested in reading the full brief that she wrote, head to this link: [Building Staff Capacity through Peer Learning and Passion at the Digital Harbor Foundation](https://digitallearningpractices.org/resource/building-staff-capacity-through-peer-learning-and-passion-at-the-digital-harbor-foundation/) 
 
