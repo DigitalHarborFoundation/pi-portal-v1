@@ -8,9 +8,11 @@ import {
   AccordionItemBody,
 } from 'react-accessible-accordion';
 import 'react-accessible-accordion/dist/fancy-example.css';
+import { SSL_OP_TLS_BLOCK_PADDING_BUG } from 'constants';
 
 const activeStyles = {
   color: '#e96544',
+  fontWeight: 'bold',
 };
 
 const CourseNavbar = () => (

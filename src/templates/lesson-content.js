@@ -35,7 +35,7 @@ const LessonTitle = styled.h1``;
 
 const LessonContainer = styled.main`
   min-height: 100vh;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: 0 auto;
 
   grid-area: content;
