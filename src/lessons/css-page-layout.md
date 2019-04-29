@@ -1,6 +1,6 @@
 ---
-slug: '/css-page-layout-part-1'
-title: 'CSS for Page Layout: Part 1'
+slug: '/css-page-layout'
+title: 'CSS for Page Layout'
 ---
 
 ## Objectives and Overview

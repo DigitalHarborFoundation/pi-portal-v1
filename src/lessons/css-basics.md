@@ -1,9 +1,10 @@
 ---
-slug: '/css-basics-part-1'
-title: 'CSS Basics: Part 1'
+slug: '/css-basics'
+title: 'CSS Basics'
 ---
 
 ## Objectives and Overview
+
 This lesson provides an overview of some terminology and provides a basic foundation of CSS. This lesson, as well as the remaining lessons in this module, intend to scratch the surface and be an introduction to CSS.
 
 ### Lesson Objectives
@@ -34,15 +35,15 @@ The most important terms that you’ll encounter are: selectors, rules, declarat
 
 Selectors are what you use to select which HTML elements you want to style. You can use combinations of several qualifiers to target unique HTML elements, depending on how specific you want/need to be. For example, you may be content to style all paragraphs on the page the same way, or you may need to be more specific and style only the first paragraph.
 
-This selects all paragraph ```<p>``` elements on the page:
+This selects all paragraph `<p>` elements on the page:
 
 ```css
 p {
-  ...
+  ...;
 }
 ```
 
-In this example, the *p* is the selector. Note that when you're referencing HTML elements in CSS you omit the brackets. For example, you use *p* instead of ```<p>```.
+In this example, the _p_ is the selector. Note that when you're referencing HTML elements in CSS you omit the brackets. For example, you use _p_ instead of `<p>`.
 
 ### Rules
 
@@ -52,7 +53,7 @@ In this example, the *p* is the selector. Note that when you're referencing HTML
 
 Once an element or elements is selected, the styles that are applied are set as properties.
 
-There are a large number of CSS properties that you can use, but here are some of the most common: background, color, font-size, height, and width. The following example sets the color and font-size properties to be applied to all paragraph ```<p>``` elements:
+There are a large number of CSS properties that you can use, but here are some of the most common: background, color, font-size, height, and width. The following example sets the color and font-size properties to be applied to all paragraph `<p>` elements:
 
 ```css
 p {
@@ -61,10 +62,9 @@ p {
 }
 ```
 
-Notice that the property names are contained within brackets { } after a selector, and are separated from their *values* by a colon.
+Notice that the property names are contained within brackets { } after a selector, and are separated from their _values_ by a colon.
 
 ### Values
-
 
 ## Element and Type Selectors
 
@@ -73,5 +73,3 @@ Notice that the property names are contained within brackets { } after a selecto
 ### Class Selector Example
 
 ### Id Selector Example
-
-
