@@ -42,7 +42,7 @@ Much of the Apache setup you'll be doing is done through *configuration files*.
 
 When Apache receives a request it runs through and analyzes the request, then applies any specific rules or directives that are included in the configuration before sending the response. If your request is successful, then you'll receive a **200 status code**, which indicates that the page is found as well as a **response header**. Inside this response, you'll have some information as well the actual requested data. Let's take a look at a sample response. The example and summary are taken from [An Introduction to Apache](https://code.tutsplus.com/tutorials/an-introduction-to-apache--net-25786)). Check it out for a deeper dive.
 
-```apache
+```
 HTTP/1.1 200 OK
 Date: Sun, 10 Jun 2012 19:19:21 GMT
 Server: Apache
