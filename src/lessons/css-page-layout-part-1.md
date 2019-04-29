@@ -5,9 +5,13 @@ title: 'CSS for Page Layout: Part 1'
 
 ## Objectives and Overview
 
+This lesson provides an introduction to some fundamental concepts related to CSS displays and layouts. This is a massive topic, and this lesson aims to scratch the surface with core topics. Developing a solid understanding of these basics will establish a foundation for learning CSS layout topics in your future exploration.
+
 ### Lesson Objectives
 
--
+- Identify and explain the difference between _block-level elements_ and _inline-level elements_.
+- Understand the CSS box model and the role it plays in display and layouts.
+- Explain how the default page flow is calculated, and how you can change this behavior.
 
 ---
 
@@ -56,11 +60,11 @@ There is a CSS property that relates directly to the box model: `box-sizing`. Th
 
 The default setting for this is `box-sizing: content-box` which means that the total size is determined by the content's width and height with the border, padding, and margin added _after_. This default behavior can be confusing when creating layouts.
 
-Another setting is `box-sizing: border-box` which means that the total size is _adjusted_ to include the border, padding, and margin. This may sound confusing, so let's take a look at an example.
+Another setting is `box-sizing: border-box` which means that the total size is _adjusted_ to include the border, padding, and margin.
 
-Content Box
-
-Border Box
+<!-- TODO:
+INCLUDE EXAMPLE
+ -->
 
 ## Document Flow: Default Layouts
 
