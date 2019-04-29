@@ -45,15 +45,13 @@ p {
 
 In this example, the _p_ is the selector. Note that when you're referencing HTML elements in CSS you omit the brackets. For example, you use _p_ instead of `<p>`.
 
-### Rules
-
-### Declarations
-
 ### Properties
 
-Once an element or elements is selected, the styles that are applied are set as properties.
+Once an element or elements is selected, the styles that are applied are set as **properties**.
 
-There are a large number of CSS properties that you can use, but here are some of the most common: background, color, font-size, height, and width. The following example sets the color and font-size properties to be applied to all paragraph `<p>` elements:
+There are a large number of CSS properties that you can use, but here are some of the most common: `background`, `color`, `font-size`, `display`, `height`, and `width`.
+
+The following example sets the `color` and `font-size` properties to be applied to all paragraph `<p>` elements:
 
 ```css
 p {
@@ -66,10 +64,93 @@ Notice that the property names are contained within brackets { } after a selecto
 
 ### Values
 
+**Values** are what dictate the behavior of the property. In the previous example, both "palevioletred" and “12px” are values. Values are the text between the : after the property and before the ; at the end of the line.
+
+### Declarations
+
+A **declaration** is the pair of a property and value/values. Using the previous example, `color` and `font-size` are the properties, and `palevioletred` and `12px` are the values. Each of these is a **declaration**.
+
+Both `color: palevioletred` and `font-size: 12px` are declarations.
+
+Here is a helpful infographic from MDN:
+
+![CSS Declarations Infographic from MDN](../images/css-basics-syntax-declaration-mdn.jpg)
+
+_Image Credit: Mozilla Developer Network_
+
+### Rules
+
+**Rules**, or **rulesets**, are the combination of the selector and the declarations. Building on the previous example, the ruleset for _p_ is the entire CSS block:
+
+```css
+p {
+  color: palevioletred;
+  font-size: 12px;
+}
+```
+
 ## Element and Type Selectors
+
+The previous example used an element selector. This is used to target a specific element, such as paragraphs `<p>`. When working with CSS, you remove the `< >` signs from the element:
+
+`<h1>` element would just be `h1` when selecting it in CSS.
+`<li>` element would be `li`, and so on.
 
 ## Class and Id Selectors
 
+Another, and much more targeted method for selecting HTML elements, is to use class and id selectors. This only works if the HTML elements have class and id properties.
+
+Once you get in the practice of assigning ids and classes to your HTML elements, using id and class selectors in your CSS will become second nature. The structure is basically the same, as it still requires a selector, property, and value. The only difference is the syntax for selection.
+
 ### Class Selector Example
 
+For this example, let’s say that you have a `<p>` with the class "main-content." The HTML would look like this: `<p class=”main-content”>`
+
+To select this paragraph element when working with CSS, you use a period and then the classname:
+
+```css
+.main-content {
+  color: #2a2a2a;
+  font-size: 12px;
+  font-family: Arial;
+}
+```
+
+Remember, when working with classes you can have multiple elements sharing a classname. You could have multiple `<p>` elements with the "main-content" class. All of the elements with that class would then use the styles you set.
+
 ### Id Selector Example
+
+To work with an HTML element that contains a unique id, you use the # and the id name as a selector. For this example, let's say you have an `<h2>` with the unique id “special-heading." The HTML would look like this: `<h2 id=”special-heading”>`
+
+The style would only impact the `<h2>` with that particular id. Remember that ids are unique per page, so this is a great way to very specifically target a certain element.
+
+### Note on using Id Selectors
+
+While using id selectors is a useful thing to have in your toolbox, it's considered best practice to avoid using them for CSS purposes. The reasoning for this is rather complex and not necessary to understand right now, but the common _best practice_ for CSS is that you should only use classes.
+
+You may now be wondering when you'd use id selectors. The short answer is that these are often reserved for use with JavaScript interaction with webpages.
+
+The next question you may have is what you'd do if you need to select a _specific element_ with classes. There are many schools of thought on this, but one way is that you can use specific class names that only target a single element and don't repeat. For now, don't worry too much about this process and just focus on practicing CSS.
+
+## Activity: Create and Link a CSS Stylesheet
+
+While your individual style rules may be different than those of your peers, the process for linking an external stylesheet is the same for everyone.
+
+**Important**: You’ll need to complete this process for every page that you want to use the style rules. For example if you have an _index.html_, _about.html_, and a _contact.html_ and intend to use your stylesheet for all of the pages, you’ll need to link to the stylesheet in every HTML file.
+
+### Steps:
+
+Before starting, make sure that your stylesheet is in the same folder as your HTML files. These steps assume your stylesheet is in the same folder. It’s much easier (and common) to place the stylesheet in the same folder.
+
+- Name your stylesheet something like `style.css` When linking, make sure that you use the actual name of your stylesheet!
+  - This example uses _style.css_ for the name.
+- At the bottom of the `<head>` section before the `</head>` tag, add the following:
+  - `<link rel=”stylesheet” type=”text/css” href=”style.css”>`
+- Save your HTML file!
+- Repeat this process for each HTML file you want to style.
+
+### Why in the Head?
+
+Notice that the stylesheet link is a similar structure to the anchor (`<a>`) links you’ve used. This is a similar link structure for when you’ve linked to other pages, except this time you’re linking to a stylesheet instead of another .html file. The `rel` and `type` properties are included to clarify that you’re linking to a stylesheet, and then the href is the file name.
+
+The stylesheet is placed in the _head_ (not header!) because you want all of your styles to load before the body. The body contains the content that you’re styling, so you want your style rules to load before the content. If you were to link to the stylesheet after the body, the style rules won’t apply.
