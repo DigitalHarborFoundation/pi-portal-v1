@@ -37,6 +37,7 @@ export default Layout;
 
 const MainContainer = styled.div`
   display: grid;
+  background: #fafafa;
   grid-template-columns: 1fr 4fr;
   grid-template-areas:
     'header header'

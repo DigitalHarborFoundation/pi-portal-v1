@@ -29,7 +29,7 @@ const Masthead = styled.div`
   align-items: center;
   /* background: #ffffff; */
   background: #0091c9;
-  /* border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
   grid-area: header;
 
