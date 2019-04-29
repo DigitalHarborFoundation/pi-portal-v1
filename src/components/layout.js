@@ -39,7 +39,7 @@ const MainContainer = styled.div`
   display: grid;
   min-height: 100vh;
   background: #fafafa;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 3fr;
   grid-template-areas:
     'header header'
     'sidebar content'
