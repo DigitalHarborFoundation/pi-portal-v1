@@ -123,19 +123,24 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink
-              to="/lessons/css-basics-part-1"
-              activeStyle={activeStyles}
-            >
-              CSS Basics: Part 1
+            <CourseNavLink to="/lessons/css-basics" activeStyle={activeStyles}>
+              CSS Basics
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
             <CourseNavLink
-              to="/lessons/css-page-layout-part-1"
+              to="/lessons/css-colors-typography"
               activeStyle={activeStyles}
             >
-              CSS for Page Layout: Part 1
+              CSS Colors and Typography
+            </CourseNavLink>
+          </AccordionItemBody>
+          <AccordionItemBody>
+            <CourseNavLink
+              to="/lessons/css-page-layout"
+              activeStyle={activeStyles}
+            >
+              CSS for Page Layout
             </CourseNavLink>
           </AccordionItemBody>
         </AccordionItem>
