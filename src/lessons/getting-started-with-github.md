@@ -7,6 +7,9 @@ title: 'Getting Started With GitHub'
 
 ### Lesson Objectives
 
+- Understand the purpose of GitHub and how it relates to and differs from, Git.
+- Explain the process of pushing local code to GitHub.
+- Push your local Git repository to GitHub.
 
 ---
 

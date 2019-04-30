@@ -5,10 +5,12 @@ title: 'Loading Content Onto a Server'
 
 ## Objectives and Overview
 
+This lesson provides a basic overview of the process of serving content from your Pi using Apache Web Server.
+
 ### Lesson Objectives
 
--
-
+- Explain where the default Apache web page comes from.
+- Identify and explain how the Apache directory relates to the content users see when they navigate to your Pi's IP address.
 
 ---
 
@@ -22,7 +24,7 @@ Apache has a default web page that is served once you set up the server software
 
 ![Apache2 Debian Default Page](../images/apache-default-page.jpg)
 
-If you open up http://localhost/ on your Pi, or have someone navigate to your Pi’s IP address, they’ll see the Apache default page. If they don’t, then you know that you may need to do some additional troubleshooting. The default page is a good visual checkpoint to make sure that your server is correctly serving content.
+If you open up _http://localhost/_ on your Pi, or have someone navigate to your Pi’s IP address, they’ll see the Apache default page. If they don’t, then you know that you may need to do some additional troubleshooting. The default page is a good visual checkpoint to make sure that your server is correctly serving content.
 
 ## Default Web Page Location
 
