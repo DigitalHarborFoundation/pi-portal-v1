@@ -61,12 +61,14 @@ Let's take a look at an example:
 <h2>Absolute Path Example</h2>
 <p>
   This example links to an external webpage using an absolute path:
-  <a href="https://digitalharbor.org">
-    Link to the Digital Harbor Foundation Website
+  <a href="https://digitalharbor.org/our-team">
+    Link to the Digital Harbor Foundation Website's Team page.
   </a>
-  Click on that link to go to the Digital Harbor Foundation's website!
+  Click on that link to go to the Digital Harbor Foundation's Team page!
 </p>
 ```
+
+You'll need to use absolute paths when linking to external sites. The above example wouldn't work if you were to only use "/our-team" as the href's value.
 
 ### Relative Paths
 
@@ -84,3 +86,9 @@ For example, if you have an _index.html_ and an _about.html_ in the same folder,
   Click on that link to learn more about me.
 </p>
 ```
+
+In this example, the href's value "/about.html" references an _about.html_ page that exists within the same folder. The use of the "/" indicates that the file is in the _same exact folder_ as the current page. This won't work if the file isn't contained in the same folder.
+
+#### Relative Links In Other Project Folders
+
+You may now be wondering if it's possible to use relative links to project files that aren't in the same folder. This is still possible! The catch is that you need to extend the value a bit more:
