@@ -15,17 +15,22 @@ Once you have an understanding of the basic HTML tags and elements, the next are
 
 ---
 
-Part Two: Capstone Project Work
-Now that you’ve planned your project and showed your proposal to the program staff for review, it’s time to move on to the next stages of the Design Process: Prototyping and Making! You’ll have plenty of time to work on your project while at the Tech Center, but if there is anything you’d like additional time with feel free to work at home as well.
+## Project Prompt
+
+Please read this entire section before starting!
+
+The prompt for the project is straight forward: Create a website with _at least 3 pages_ that is hosted and served by your Raspberry Pi. The content can be about anything you like as long it's appropriate and meets the project requirements.
+
+### Specific Project Requirements
+
+## Tips and Best Practices
+
+One of the most important things to consider for your project is the scope. It’s better to plan something that’s smaller scale and then build from there once you make some progress. Remember a crucial part of the Design Process is the willingness to accept and integrate feedback. Keep this in mind when receiving any suggestions from program staff!
 
 Remember to have a solid understanding of scope. It’s a good idea to break your project into smaller components if you’re having trouble moving forward.
 
-Project Work
-This is an ongoing phase and will be the bulk of the time spent on the Capstone Project. While these projects are individual, it’s a great idea to fully utilize your peer community by constantly getting (and offering) feedback that can then be integrated into your process. This is especially helpful if you find yourself at a point where you’re stuck!
+## Progress Updates
 
-This phase is when you’ll be starting and maintaining your second blog post for the Capstone Project. This post will be an ongoing entry that you’ll add to each day until you finish. The format for this is the Progress Update Post.
-
-Progress Update
 In a Progress Update post on your portfolio website, you will be writing about the progress you are making on a specific project. This is to share the new things you are learning as you work through your project and to update your readers about your progress. A Progress Update post is written while a project is still being worked on.
 
 When you write a Progress Update, here are a few guiding questions you can answer:
@@ -34,6 +39,7 @@ What project is this a part of?
 What progress have you made?
 What new learning have you done since your previous update?
 What do you plan to do next?
+
 REMEMBER:
 
 Take screenshots, photos, and / or videos!
