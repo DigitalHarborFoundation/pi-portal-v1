@@ -5,11 +5,11 @@ title: 'CSS Typography'
 
 ## Objectives and Overview
 
-This lesson goes a bit more in depth into common CSS properties relating to color and typography. After reading through this lesson and working with the examples you'll be able to start adding some visual excitement to your page's text elements.
+This lesson goes a bit more in depth into common CSS properties relating to typography. Typography is a vast topic. This lesson introduces some of the basic CSS properties.
 
 ### Lesson Objectives
 
--
+- Understand and explain what the following CSS properties do: `font-size`, `font-family`, `text-decoration`, and `font-weight`.
 
 ---
 
@@ -19,6 +19,6 @@ This lesson goes a bit more in depth into common CSS properties relating to colo
 
 ### Font Size
 
-### Font Decoration
+### Text Decoration
 
 ### Font Weight
