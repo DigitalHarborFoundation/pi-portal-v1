@@ -15,6 +15,8 @@ This lesson goes a bit more in depth into common CSS properties relating to typo
 
 ## Typography Properties
 
+Typography is one of the most important skills in web design.
+
 ### Font Family
 
 ### Font Size

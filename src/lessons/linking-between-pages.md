@@ -42,8 +42,12 @@ Let's now look at the structure of the HTML:
 
 ## Relative and Absolute Paths
 
+It's necessary to add the _path value_ to the href in order for a link to work. Links can go to external websites, pages on the same server, and even links within the same page. There are two types of paths: **relative paths** and **absolute path**. Understanding the difference between the two is important as there are different use cases -- one is not better than the other. You'll use both throughout your web development explorations. Let's take a look at the differences between the path types and some examples of when you'd use each.
+
 ### Relative Paths
 
 ### Absolute Paths
+
+**Absolute paths** are full paths. These are always used when linking to an external website.
 
 ### Path Examples
