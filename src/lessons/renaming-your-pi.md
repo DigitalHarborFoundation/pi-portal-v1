@@ -9,7 +9,8 @@ This lesson demonstrates how to change the default username, hostname, and passw
 
 ### Lesson Objectives
 
--
+- Understand the process for changing your **password** and **hostname** on your Raspberry Pi.
+- Change the default password on your Raspberry Pi.
 
 ---
 

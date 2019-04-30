@@ -89,6 +89,6 @@ For example, if you have an _index.html_ and an _about.html_ in the same folder,
 
 In this example, the href's value "/about.html" references an _about.html_ page that exists within the same folder. The use of the "/" indicates that the file is in the _same exact folder_ as the current page. This won't work if the file isn't contained in the same folder.
 
-#### Relative Links In Other Project Folders
+<!-- #### Relative Links In Other Project Folders
 
-You may now be wondering if it's possible to use relative links to project files that aren't in the same folder. This is still possible! The catch is that you need to extend the value a bit more:
+You may now be wondering if it's possible to use relative links to project files that aren't in the same folder. This is still possible! The catch is that you need to extend the value a bit more: -->
