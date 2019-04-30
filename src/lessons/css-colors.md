@@ -1,6 +1,6 @@
 ---
-slug: '/css-colors-typography'
-title: 'CSS Colors and Typography'
+slug: '/css-colors'
+title: 'CSS Colors'
 ---
 
 ## Objectives and Overview
@@ -126,16 +126,8 @@ Once you begin creating containers using elements such as `<div>`s you'll be abl
 
 While it's fun to experiment with color combinations, it's good to be mindful of the _color contrast ratio_ between your color choices. This ratio is a mathematic evaluation of the difference between foreground and background colors.
 
-## Typography Properties
+Maintaining an acceptable contrast ratio is important for two factors: readability of your content, and accessibility of the content to users with visual impairment. Content with low contrast ratios is harder to read and may even be unreadable to someone with a visual impairment. Designing with contrast ratios in mind improves your content for all users and can make the difference between someone being able to fully experience your site and not.
 
-### Font Family
+If you're interested in reading more about color contrast ratios and accessibility, check out this article from _The A11Y Project_: [The A11Y Project: What is color contrast?](https://a11yproject.com/posts/what-is-color-contrast/).
 
-### Font Size
-
-### Font Decoration
-
-### Font Weight
-
-```
-
-```
+There are several online tools available for checking contrast ratios. Here's a link to a quick, reliable contrast checker: [Contrast Ratio Checker](https://contrast-ratio.com/).

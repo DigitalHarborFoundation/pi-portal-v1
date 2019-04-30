@@ -125,11 +125,16 @@ const CourseNavbar = () => (
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
+            <CourseNavLink to="/lessons/css-colors" activeStyle={activeStyles}>
+              CSS Colors
+            </CourseNavLink>
+          </AccordionItemBody>
+          <AccordionItemBody>
             <CourseNavLink
-              to="/lessons/css-colors-typography"
+              to="/lessons/css-typography"
               activeStyle={activeStyles}
             >
-              CSS Colors and Typography
+              CSS Typography
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
