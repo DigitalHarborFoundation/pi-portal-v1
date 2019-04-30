@@ -1,6 +1,6 @@
 ---
-slug: '/html-basics-part-1'
-title: 'HTML Basics: Part 1'
+slug: '/html-basics'
+title: 'HTML Basics'
 ---
 
 ## Objectives and Overview

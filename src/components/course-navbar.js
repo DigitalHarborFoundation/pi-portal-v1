@@ -75,11 +75,8 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
-            <CourseNavLink
-              to="/lessons/html-basics-part-1"
-              activeStyle={activeStyles}
-            >
-              HTML Basics: Part 1
+            <CourseNavLink to="/lessons/html-basics" activeStyle={activeStyles}>
+              HTML Basics
             </CourseNavLink>
           </AccordionItemBody>
           <AccordionItemBody>
