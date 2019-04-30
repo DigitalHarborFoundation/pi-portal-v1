@@ -42,7 +42,7 @@ h2 {
 
 This declaration sets the color of all **h2** elements to dark gray since _darkgray_ is an available keyword.
 
-MDN has a great list of the color name keywords that are acceptable. Check out the list here: [MDN: Availalble Color Keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).
+MDN has a great list of the color name keywords that are acceptable. Check out the list here: [MDN: Available CSS Color Keywords](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords).
 
 #### Using Hex Values
 
@@ -120,7 +120,11 @@ body {
 
 **Note**: Using `body` as a selector sets the background of the entire body to a certain color. This is helpful if you want the entire page background to be a certain color.
 
+Once you begin creating containers using elements such as `<div>`s you'll be able to get creative with background colors! For now, just focus on changing the `<body>` color to practice the syntax.
+
 ### Note About Contrast Ratios
+
+While it's fun to experiment with color combinations, it's good to be mindful of the _color contrast ratio_ between your color choices. This ratio is a mathematic evaluation of the difference between foreground and background colors.
 
 ## Typography Properties
 
