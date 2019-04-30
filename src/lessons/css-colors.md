@@ -5,11 +5,13 @@ title: 'CSS Colors'
 
 ## Objectives and Overview
 
-This lesson goes a bit more in depth into common CSS properties relating to color and typography. After reading through this lesson and working with the examples you'll be able to start adding some visual excitement to your page's text elements.
+This lesson goes a bit more in depth into common CSS properties relating to color. After reading through this lesson and working with the examples you'll be able to start adding some visual excitement to your page's elements.
 
 ### Lesson Objectives
 
--
+- Understand how to change text and background color with CSS.
+- Understand and explain three methods for setting color values in CSS.
+- Explain what is meant by the _color contrast ratio_ and why it's an important consideration.
 
 ---
 
@@ -21,7 +23,7 @@ Changing color drastically alters the mood and feel of your content. There's a w
 
 ### Color Values
 
-There are several different options for setting color values. Since this applies to both text and background color, let's cover the three most common methods before moving on.
+There are several different methods for setting color values. Since this applies to both text and background color, let's cover the three most common methods before moving on.
 
 #### Using Color Name Keywords
 
@@ -122,7 +124,7 @@ body {
 
 Once you begin creating containers using elements such as `<div>`s you'll be able to get creative with background colors! For now, just focus on changing the `<body>` color to practice the syntax.
 
-### Note About Contrast Ratios
+## Note About Color Contrast Ratios
 
 While it's fun to experiment with color combinations, it's good to be mindful of the _color contrast ratio_ between your color choices. This ratio is a mathematic evaluation of the difference between foreground and background colors.
 
