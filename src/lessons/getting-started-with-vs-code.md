@@ -27,6 +27,10 @@ One of the best features of VS Code is that it is highly customizable and highly
 
 Your Raspberry Pi should have VS Code installed already.
 
+## VS Code Interface Overview
+
+## VS Code Shortcuts
+
 ## File Management
 
 You’re going to want to develop a consistent system for managing the folders and files for each new project. One of the best ways to do this is to create one folder for the course and then a sub-folder for each project. You’ll be creating one main page for this course, so you should make sure to have at least one additional sub-folder.
@@ -41,4 +45,4 @@ Once your file system is set up, go ahead and open up your text editor. These ex
 
 ### Steps:
 
-Open VS Code and go to File->Open. This image shows the course folder on the Desktop. Navigate to the folder and open it in Atom.
+Open VS Code and go to File->Open. This image shows the course folder on the Desktop. Navigate to the folder and open it in VS Code.
