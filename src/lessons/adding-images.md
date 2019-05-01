@@ -30,11 +30,26 @@ The src stands for “source” and is the url link to the image. If the url is 
 
 You may have noticed that your image is larger than you wanted. See if you can figure out a solution for this!
 
-## Alt Attribute
-
 ## Including Images
 
 ## Linking to Images
+
+## Alt Attribute
+
+The _alt attribute_ is for _alternate text_. This attribute has two purposes: it displays when an image doesn't load, and it's used by assistive screen reader technologies. Including alt text shouldn't be optional -- this is a mandatory field to include on all images in web content. If you don't include alt text on an image and someone is using a screenreader it's as if the image doesn't exist for them.
+
+### Writing Alt Text
+
+### Alt Text Example
+
+```html
+<img
+  src="/youth-raspberry-pi.jpg"
+  alt="A group of youth sitting at a table working with Raspberry Pi."
+/>
+```
+
+The alt text should be a description of the photo. You don't need to include extra text such as "An image of..." or "A photo of..." because this isn't necessary. Screenreaders often automatically insert this at the start of the description.
 
 ### Image Attribution
 

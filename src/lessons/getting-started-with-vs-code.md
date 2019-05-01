@@ -7,13 +7,15 @@ title: 'Getting Started With VS Code'
 
 ### Lesson Objectives
 
--
+- Recognize the purpose of a text editor in web development.
+- Become familiar with the VS Code interface and shortcuts.
+- Demonstrate the ability to create and edit new files in VS Code.
 
 ---
 
 ## What is VS Code?
 
-During this course you’re going to be using VS Code, a free and powerful editor developed and maintained by Microsoft's open source team.
+During this course you’re going to be using VS Code (Visual Studio Code), a free and powerful editor developed and maintained by Microsoft's open source team. Even though its a Microsoft product, VS Code works on Windows, Mac, and Linux. VS Code has quickly become the most recommended and used text editor, especially for web development.
 
 ## File Management and Text Editors
 
@@ -27,11 +29,11 @@ One of the best features of VS Code is that it is highly customizable and highly
 
 Your Raspberry Pi should have VS Code installed already.
 
-## VS Code Interface Overview
+## VS Code Interface Tour
 
 ## VS Code Shortcuts
 
-## File Management
+<!-- ## File Management
 
 You’re going to want to develop a consistent system for managing the folders and files for each new project. One of the best ways to do this is to create one folder for the course and then a sub-folder for each project. You’ll be creating one main page for this course, so you should make sure to have at least one additional sub-folder.
 
@@ -41,8 +43,15 @@ If you’re comfortable with using the command line, you can complete this proce
 
 ## Working with a Text Editor
 
-Once your file system is set up, go ahead and open up your text editor. These examples use VS Code, but if you use another editor for some of your future web development there will be slight distinctions but the general concepts will be similar.
+Once your file system is set up, go ahead and open up your text editor. These examples use VS Code, but if you use another editor for some of your future web development there will be slight distinctions but the general concepts will be similar. -->
 
 ### Steps:
 
 Open VS Code and go to File->Open. This image shows the course folder on the Desktop. Navigate to the folder and open it in VS Code.
+
+## Going Further
+
+One of VS Code's strengths is its flexibility and extensibility. There are many plugins and extensions that increase the power. After this course you'll have a solid foundation in VS Code, but if you're looking to build your knowledge, here are some resources:
+
+- [Microsoft: Getting Started With Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
+-
