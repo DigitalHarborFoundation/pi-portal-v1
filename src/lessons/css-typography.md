@@ -9,7 +9,7 @@ This lesson goes a bit more in depth into common CSS properties relating to typo
 
 ### Lesson Objectives
 
-- Understand and explain what the following CSS properties do: `font-size`, `font-family`, `text-decoration`, and `font-weight`.
+- Understand and explain what the following CSS properties do: `font-size`, `font-family`, and `font-weight`.
 
 ---
 
@@ -49,6 +49,24 @@ For example, you wouldn't necessarily want some of your paragraphs to be 17px an
 
 Here is a thorough resource covering font sizes for web design: [Learn UI Design: The Responsive Website Font Size Guidelines](https://learnui.design/blog/mobile-desktop-website-font-size-guidelines.html). That article goes into detail and some of the content may be completely unfamiliar. That's ok! Remember, this is a _going further_ resource for you to bookmark and reference as your skill grows.
 
-### Text Decoration
-
 ### Font Weight
+
+The `font-weight` property sets the boldness of the font. Weight is another term for boldness. Different fonts have different weights that are available. Some fonts have as several weights available whereas others have very few. You'll often see fonts with multiple weights use numeric values instead of keywords like "bold." 
+
+When choosing a font for web and interface design you'll often want to do some research and select one with multiple weights so that you have options. This isn't something to worry about much now as this course is an introduction to CSS.
+
+For a deeper dive, check out this MDN article: [MDN: font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight). 
+
+Here's an example of how to set a variety of weights:
+
+```css
+.main-content {
+  font-weight: normal;
+}
+
+.sub-title {
+  font-weight: bold;
+}
+```
+
+The above example uses the *normal* and *bold* keywords. These are fairly safe to use. If you want to experiment further check out the resourced linked above.
