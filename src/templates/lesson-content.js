@@ -49,6 +49,11 @@ const LessonContainer = styled.main`
   @media only screen and (max-width: 1000px) {
     padding: 2rem;
   }
+
+  @media only screen and (max-width: 1300px) {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 `;
 
 const LessonBody = styled.article`

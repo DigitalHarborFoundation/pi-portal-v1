@@ -251,7 +251,6 @@ const CourseNavbarContainer = styled.aside`
 
   @media only screen and (min-width: 1000px) {
     position: fixed;
-
     top: 100px;
     left: 0px;
     bottom: 2rem;
@@ -259,6 +258,10 @@ const CourseNavbarContainer = styled.aside`
     min-height: 0;
     height: calc(100% - 10rem);
     z-index: 1;
+  }
+
+  @media only screen and (max-width: 1300px) {
+    max-width: 25%;
   }
 `;
 
