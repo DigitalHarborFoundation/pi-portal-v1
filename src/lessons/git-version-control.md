@@ -97,4 +97,5 @@ There is often a lot of confusion around the difference between `git add` and `g
 - `git status`: checks the current status of the repository. This informs you of any changes or untracked files.
 - `git add`: Adds a file. This is necessary before committing. It tells Git that this is a file to track.
 - `git commit`: Commits the file (saves a version) to the repository.
-  - Remember to add a message! `git commit -m 'descriptive message about the changes in this commit'`
+  - Remember to add a message!
+    -  `git commit -m 'descriptive message about the changes in this commit'`
