@@ -234,6 +234,22 @@ const CourseNavbar = () => (
             </CourseNavLink>
           </AccordionItemBody>
         </AccordionItem>
+        <AccordionItem>
+          <AccordionItemTitle className="accordion__title accordion__title--animated">
+            <div className="u-position-relative">
+              <ModuleTitle>Capstone Project</ModuleTitle>
+              <div className="accordion__arrow" role="presentation" />
+            </div>
+          </AccordionItemTitle>
+          <AccordionItemBody>
+            <CourseNavLink
+              to="lessons/capstone-project-expectations"
+              activeStyle={activeStyles}
+            >
+              Capstone Project Expectations
+            </CourseNavLink>
+          </AccordionItemBody>
+        </AccordionItem>
       </Accordion>
     </CourseNavbarNav>
   </CourseNavbarContainer>
