@@ -21,7 +21,6 @@ exports.createPages = ({ graphql, actions }) => {
         createPage({
           path: `/lessons${node.frontmatter.slug}`,
           component: path.resolve(`./src/templates/lesson-content.js`),
-          // component: path.resolve(`./src/components/layout.js`),
           context: {
             slug: node.frontmatter.slug,
           },
