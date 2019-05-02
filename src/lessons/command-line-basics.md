@@ -61,7 +61,7 @@ Adam Bouhmad has prepared this quick tutorial on command line basics. This will 
 
 ## Linux Quick Reference
 
-This is a quick cheatsheet on some of the useful command you may find yourself using daily in Linux. Feel free to reference this Cheat Sheet. Learning Linux can be difficult so do not feel overwhelmed!
+This is a quick cheat sheet for some of the useful commands you'll often use in Linux.
 
 ### Remote Connection
 
@@ -165,4 +165,4 @@ The main command line tool for managing software is `apt-get`. APT stands for A
 
 Keeping your server (and other software on the Pi) up to date is crucial. There are often security patches or other vital software updates that are released. Server and software maintenance should become part of your daily routine, especially when working with web technology. This activity walks through the process of updating your Raspberry Pi via the command line.
 
-**Note:** Before starting, you'll need to have administrator access to your system. You have this for your Raspberry Pi, but you'll still need to start each command with sudo. If you're working on a server at another point in your tech explorations, remember that for these types of updates you'll need admin access.
+**Note:** Before starting, you'll need to have administrator access to your system. You have this for your Raspberry Pi, but you'll still need to start each command with `sudo`. If you're working on a server at another point in your tech explorations, remember that for these types of updates you'll need admin access.
