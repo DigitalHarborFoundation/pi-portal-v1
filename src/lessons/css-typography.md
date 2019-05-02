@@ -51,11 +51,11 @@ Here is a thorough resource covering font sizes for web design: [Learn UI Design
 
 ### Font Weight
 
-The `font-weight` property sets the boldness of the font. Weight is another term for boldness. Different fonts have different weights that are available. Some fonts have as several weights available whereas others have very few. You'll often see fonts with multiple weights use numeric values instead of keywords like "bold." 
+The `font-weight` property sets the boldness of the font. Weight is another term for boldness. Different fonts have different weights that are available. Some fonts have as several weights available whereas others have very few. You'll often see fonts with multiple weights use numeric values instead of keywords like "bold."
 
 When choosing a font for web and interface design you'll often want to do some research and select one with multiple weights so that you have options. This isn't something to worry about much now as this course is an introduction to CSS.
 
-For a deeper dive, check out this MDN article: [MDN: font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight). 
+For a deeper dive, check out this MDN article: [MDN: font-weight](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight).
 
 Here's an example of how to set a variety of weights:
 
@@ -69,4 +69,15 @@ Here's an example of how to set a variety of weights:
 }
 ```
 
-The above example uses the *normal* and *bold* keywords. These are fairly safe to use. If you want to experiment further check out the resourced linked above.
+The above example uses the _normal_ and _bold_ keywords. These are fairly safe to use. If you want to experiment further check out the resourced linked above.
+
+## Activity: Style Some Text!
+
+Let's practice styling some text on your existing pages.
+
+### Steps:
+
+1. Open your project and open your stylesheet -- this example assumes you named it _style.css_
+2. Change some of the font size and weights on your existing pages.
+3. Open the **live server** if you haven't already
+4. As you change your CSS the live server preview updates!
