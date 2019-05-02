@@ -10,7 +10,7 @@ This lesson introduces the `<img>` element and how to it to include images on yo
 ### Lesson Objectives
 
 - Understand how to use the HTML `<img>` element to add an image to a webpage.
-- Demonstrate the ability to add images to a webpage by linking to an external image as well as adding a local image with HTML.
+- Demonstrate the ability to add images to a webpage by linking to local and external images.
 - Understand and explain the role of the _alt_ attribute when adding images to a webpage.
 - Be able to add an image with appropriate alt text to a webpage.
 
@@ -34,6 +34,8 @@ You may have noticed that your image is larger than you wanted. See if you can f
 
 ## Linking to Images
 
+### Local and External Images
+
 ## Alt Attribute
 
 The _alt attribute_ is for _alternate text_. This attribute has two purposes: it displays when an image doesn't load, and it's used by assistive screen reader technologies. Including alt text shouldn't be optional -- this is a mandatory field to include on all images in web content. If you don't include alt text on an image and someone is using a screenreader it's as if the image doesn't exist for them.
@@ -51,6 +53,6 @@ The _alt attribute_ is for _alternate text_. This attribute has two purposes: it
 
 The alt text should be a description of the photo. You don't need to include extra text such as "An image of..." or "A photo of..." because this isn't necessary. Screenreaders often automatically insert this at the start of the description.
 
-### Image Attribution
+This can be overwhelming at times, but just try to do the best that you can. This article from The A11Y Project is a great resource: [The A11Y Project: Quick tip: Using alt text properly](https://a11yproject.com/posts/alt-text/)
 
-## Local and External Images
+### Image Attribution
