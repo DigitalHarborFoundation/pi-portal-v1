@@ -91,13 +91,18 @@ All of the visible content within the web page will fall within the `<body>` ele
 
 This is the structure that you should practice using in all of your HTML files that you create. In this example, the body only contains a single header and paragraph. As you build out your page, you would include more elements in both the head and the body, as you'll see in later projects.
 
-## Layout: Readability and Semantic HTML
+## Basic HTML Guidelines
 
-The proper use of HTML tags has a big imapct on the readability and semantic "correctness" of your page. Understanding the best practices for using headings and content creation will help build a good foundation.
+Here are some basic guidelines to follow as you work in Thimble to build your About Me page:
 
-Beyond just improving the readability of your site, properly understanding how to use HTML tags is important for users who rely on screen readers. Taking these things into consideration from the beginning will increase the accessibility of your site.
+- Remember to close all tags that you open!
+- Write all HTML tags lowercase.
+- Practice properly nesting your tags.
+  - For example, if you write: `<tag1> <tag2>` you’d want to close them in the reverse order by closing `</tag2>` and then `</tag1>`.
+    - Open first, open second, close second, close first.
+    - Here is an example: `<strong><em>`**_some text that would be bold and emphasized_**`</em></strong>`
 
-### Using Heading Tags
+## Using Heading Tags
 
 The way that you use heading tags on your page is important and there is lots of conflicting information on the topic. Generally, you'll want to follow these best practices:
 
@@ -107,12 +112,67 @@ The way that you use heading tags on your page is important and there is lots of
 
 Avoid using the heading tags for styling purposes. Instead, use these to convey order and meaning. Get in the habit of thinking of the headings as creating the skeleton of your page. These act as the **document outline**.
 
-### Other Considerations
+## Other Considerations
 
 It's a good idea to make sure that don't include too much information in each heading block. If your paragraphs are looking really big, see if you can split it up into sub-sections.
 Alternatively, if you're using sub-headings you'll want to make sure that each one has at least 2 or more sentences. Both of these considerations will improve the readability of your site.
 
 While these are best practice suggestions, the content (and layout) of the site should always be the main focus. The layout of an "About" page will be structured differently than a blog post. Being mindful of these things from the start will help you make **content driven decisions** when building your own site or working with a client.
+
+## Activity: Building With HTML
+
+Now that you have a basic understanding of HTML, let’s practice by creating a page.
+
+You’ll start creating an About Me page. For now, you’ll be adding HTML and content only. As you add each of these elements, make sure that you’re adding things that fit the goal of the project. For example, instead of just listening out random items you should make a list of hobbies or interests.
+
+More layout elements will be introduced in later lessons. For now, you'll focus on adding elements directly into the `<body>`.
+
+### Steps:
+
+1. Create a project folder if you haven't already
+2. Open VS Code and create a new _index.html_ file (File → New File) **inside** the project folder
+3. Add the HTML for the basic page structure shown in this lesson
+4. Save the file as _index.html_
+5. Add in a _title_ in the _head_
+
+At this point, your HTML should look something like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>All About Me</title>
+  </head>
+  <body></body>
+</html>
+```
+
+6. Run the **live server** so that you can actively preview your work
+7. Next, let's add some elements to the _body_! Remember, the content you add should be between the opening `<body>` and closing `</body>` tag. Include the following HTML elements:
+
+   - An `<h1>` heading
+   - Sub-headings, such as `<h2>` and if necessary, `<h3>`
+   - Some paragraph text inside a `<p>` element.
+     - Use the `<strong>` and `<em>` tags to format some text
+
+8. Once you finish, consider adding _ordered_ and _unordered_ lists inside the _body_. Here's how:
+
+```html
+<p>
+  My first unordered list!
+  <ul>
+    <li>Unordered list item!</li>
+  </ul>
+
+  My first ordered list!
+  <ol>
+    <li>Ordered list item 1</li>
+  </ol>
+</p>
+```
+
+It’s alright if you don’t finish this all at once! Keep working toward it.
 
 ## HTML Comments
 

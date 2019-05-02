@@ -38,7 +38,8 @@ module.exports = {
             options: {
               // Adjust based on determined max-width in the image container
               maxWidth: 600,
-              wrapperStyle: `margin-left: 0px; margin-right: 0px`,
+              quality: 100,
+              wrapperStyle: `margin-left: 0px; margin-right: 0px;`,
             },
           },
           {

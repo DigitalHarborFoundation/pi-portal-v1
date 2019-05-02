@@ -12,8 +12,14 @@ Once you have an understanding of the basic HTML tags and elements, the next are
 - Identify structural elements that can be contained in the `<body>` of an HTML document.
 - Understand and explain the purpose of using semantic HTML elements.
 - Recognize different semantic HTML structural elements.
-  
+
 ---
+
+## Layout: Readability and Semantic HTML
+
+The proper use of HTML tags has a big impact on the readability and semantic "correctness" of your page. Understanding the best practices for using headings and content creation will help build a good foundation.
+
+Beyond just improving the readability of your site, properly understanding how to use HTML tags is important for users who rely on screen readers. Taking these things into consideration from the beginning will increase the accessibility of your site.
 
 ## Page Structure Overview
 

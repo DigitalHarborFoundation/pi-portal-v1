@@ -87,8 +87,24 @@ For example, if you have an _index.html_ and an _about.html_ in the same folder,
 </p>
 ```
 
-In this example, the href's value "/about.html" references an _about.html_ page that exists within the same folder. The use of the "/" indicates that the file is in the _same exact folder_ as the current page. This won't work if the file isn't contained in the same folder.
+In this example, the `href`value "/about.html" references an _about.html_ page that exists within the same folder. The use of the "/" indicates that the file is in the _same exact folder_ as the current page. This won't work if the file isn't contained in the same folder.
 
-<!-- #### Relative Links In Other Project Folders
+## Activity: Linking to Another Page
 
-You may now be wondering if it's possible to use relative links to project files that aren't in the same folder. This is still possible! The catch is that you need to extend the value a bit more: -->
+Before starting the activity, let's take a quick look at a side-by-side example of the code and the resulting page. This example extends the example used in the _Adding Images_ lesson.
+
+![Side-by-side view of HTML code on the left and resulting page on the right](../images/link-example-side-by-side.jpg)
+
+**Note:** As with all image examples, click on the image to open a higher resolution version in another browser tab.
+
+### Steps:
+
+1. Create another HTML file in _the same folder_
+2. Name this something like _about.html_
+   - The name doesn't matter as long as it's different than _index.html_ since it has to be a new file
+3. Create a link to this new page using a **relative path**. Refer to the above HTML example if you need help remembering the syntax
+4. Create a link to an external page using an **absolute path** link. Refer to the above HTML example if you need remembering the syntax.
+
+If you're stuck, open up the example image in a new tab and look at the code. Remember, it's completely fine if you forget syntax and need to look it up. Focus on building comfort and familiarity with the concepts. It's alright if you need to look up specific syntax.
+
+If you want to extend this activity, create some new pages and start linking back and forth between them! Make sure to add a way to navigate back to the home page (_index.html_) from any new pages you create.

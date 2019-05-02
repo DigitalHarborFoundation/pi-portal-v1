@@ -62,7 +62,6 @@ const LessonBody = styled.article`
   font-size: 1rem;
 
   img {
-    width: auto !important;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2) !important;
   }
 
