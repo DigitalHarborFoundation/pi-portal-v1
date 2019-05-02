@@ -137,3 +137,57 @@ The content for a section is placed within the opening `<section>` and closing `
 The **footer element** is used as a closing section for the page. This section typically includes contact and copyright information for the organization or author. The content of the footer often remains consistent across different pages on your website, but this doesn't need to be the case.
 
 The content of the footer is enclosed within the opening `<footer>` and closing `</footer>` tags. The footer can contain many elements, including links to pages such as social media or email.
+
+## Bringing Everything Together
+
+Before moving on to the activity, let's take a look at an example.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Structured HTML Example</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Structured HTML Example</h1>
+      <p>Site tagline!</p>
+    </header>
+    <main>
+      <h2>Second Level Title</h2>
+      <p>Some paragraph text</p>
+    </main>
+    <footer>
+      <p>Made in Baltimore in 2019.</p>
+    </footer>
+  </body>
+</html>
+```
+
+## Activity: Create a Structured HTML Page
+
+Let's practice creating page using these semantic structural elements. From this point on, new pages that you create should utilize these elements.
+
+### Steps:
+
+1. Create a new project folder and name it something like _practice-project-2_
+2. Open VS Code and create a new _index.html_ file (File → New File) inside the project folder
+3. Add the basic HTML page structure (refer back to the _HTML Basics_ lesson if you need)
+4. Save the file as _index.html_ if you haven't already
+5. Add in a _title_ in the _head_
+6. Run the **live server** so you can actively preview your work
+
+At this point, your HTML should be the same as what you've previously used in the lessons. Let's now extend it by adding structural elements into the _body_.
+
+6. Let's use some semantic structural elements. Add the following:
+   - `header`
+   - `main`
+   - `footer`
+
+### Going Further
+
+Extend the concepts by adding more elements. For example, try including a site navigation using the `nav` element. This should contain links that are related to navigating _your site_. You wouldn't include external links in this section.
