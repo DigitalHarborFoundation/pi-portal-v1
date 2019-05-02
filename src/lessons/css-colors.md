@@ -133,3 +133,19 @@ Maintaining an acceptable contrast ratio is important for two factors: readabili
 If you're interested in reading more about color contrast ratios and accessibility, check out this article from _The A11Y Project_: [The A11Y Project: What is color contrast?](https://a11yproject.com/posts/what-is-color-contrast/).
 
 There are several online tools available for checking contrast ratios. Here's a link to a quick, reliable contrast checker: [Contrast Ratio Checker](https://contrast-ratio.com/).
+
+## Activity: Add Some Color!
+
+Let's practice adding some color to your existing pages!
+
+### Steps:
+
+1. Open your project and open your stylesheet -- this example assumes you named it _style.css_
+2. Add some color to your text! Consider adding the following:
+   - h1
+   - p
+   - body background color
+3. Open the **live server** if you haven't already
+4. As you change your CSS the live server preview updates!
+
+Experiment with some different declarations. If you get stuck read back through this lesson. One of the best ways to learn CSS is through exploration!

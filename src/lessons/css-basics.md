@@ -76,7 +76,7 @@ Here is a helpful infographic from MDN:
 
 ![CSS Declarations Infographic from MDN](../images/css-basics-syntax-declaration-mdn.jpg)
 
-_Image Credit: Mozilla Developer Network_
+_Image Credit: MDN Web Docs_
 
 ### Rules
 
@@ -136,18 +136,21 @@ The next question you may have is what you'd do if you need to select a _specifi
 
 While your individual style rules may be different than those of your peers, the process for linking an external stylesheet is the same for everyone.
 
-**Important**: You’ll need to complete this process for every page that you want to use the style rules. For example if you have an _index.html_, _about.html_, and a _contact.html_ and intend to use your stylesheet for all of the pages, you’ll need to link to the stylesheet in every HTML file.
-
 ### Steps:
 
 Before starting, make sure that your stylesheet is in the same folder as your HTML files. These steps assume your stylesheet is in the same folder. It’s much easier (and common) to place the stylesheet in the same folder.
 
-- Name your stylesheet something like `style.css` When linking, make sure that you use the actual name of your stylesheet!
-  - This example uses _style.css_ for the name.
-- At the bottom of the `<head>` section before the `</head>` tag, add the following:
-  - `<link rel=”stylesheet” type=”text/css” href=”style.css”>`
-- Save your HTML file!
-- Repeat this process for each HTML file you want to style.
+1. Open one of your project folders in VS Code
+2. Make sure that you're in the same folder, and then create a new file
+3. Name this file something like `style.css` and save it
+   - When linking, make sure that you use the actual name of your stylesheet!
+   - This example uses _style.css_ for the name.
+4. At the bottom of the `<head>` section before the `</head>` tag, add the following:
+   - `<link rel=”stylesheet” href=”style.css”>`
+5. Save your HTML file!
+6. Repeat this process for each HTML file you want to style.
+
+**Note**: You’ll need to complete this process for every page that you want to use the style rules. For example if you have an _index.html_, _about.html_, and a _contact.html_ and intend to use your stylesheet for all of the pages, you’ll need to link to the stylesheet in every HTML file.
 
 ### Why in the Head?
 
