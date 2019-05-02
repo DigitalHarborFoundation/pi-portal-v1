@@ -149,7 +149,7 @@ const CourseNavbar = () => (
         <AccordionItem>
           <AccordionItemTitle className="accordion__title accordion__title--animated">
             <div className="u-position-relative">
-              <ModuleTitle>Designing for Users</ModuleTitle>
+              <ModuleTitle>Prototyping for the Web</ModuleTitle>
               <div className="accordion__arrow" role="presentation" />
             </div>
           </AccordionItemTitle>
