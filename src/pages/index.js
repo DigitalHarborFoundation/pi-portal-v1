@@ -10,7 +10,7 @@ const IndexPage = () => (
     <LessonBody>
       <h2>Welcome to the Digital Harbor Foundation Pi Portal</h2>
  
-      <img style={{ boxShadow: `0px 4px 10px rgba(0, 0, 0, 0.2)` }} src={heroImg} />
+      <img style={{ boxShadow: `0px 4px 10px rgba(0, 0, 0, 0.2)` }} src={heroImg} alt="Digital Harbor Foundation youth sitting at a table working with a Raspberry Pi" />
       <p style={{ color: `#63686B`, fontSize: `1.2rem` }}>
       Helping Schools Develop Low-Cost, High-Value, Computer Science Experiences!</p>     
     </LessonBody>
