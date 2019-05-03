@@ -4,26 +4,29 @@ title: 'Accessing Your Site'
 ---
 
 ## Objectives and Overview
+
 This lesson covers how to locally access your web content once it's being served by Apache. There is a review about how Apache looks for content, and an activity to make sure that you're able to access your content. Additionally, this lesson includes a section on creating folders for organizing your content in a larger site.
 
 ### Lesson Objectives
 
 - Demonstrate the ability to serve and locally access your site's content.
-- Explain the importance of the */var/www/html/* folder, and how it relates to serving your website's content.
-- Understand and explain the process for creating folders within your Apache *DirectoryIndex*.
+- Explain the importance of the _/var/www/html/_ folder, and how it relates to serving your website's content.
+- Understand and explain the process for creating folders within your Apache _DocumentRoot_.
 
 ---
 
 ## Accessing Your Site Locally
 
 Before moving through this lesson, make sure that you've completed the following tasks:
+
 - Configure a static local IP address for your Pi
 - Install and configure the Apache web server
-- Create some basic web content and place it in the correct location */var/www/html/* on your Pi
-  
+- Create some basic web content and place it in the correct location _/var/www/html/_ on your Pi
+
 If you have completed the above steps you're ready to access your web content! Remember, at this stage, you'll only be able to access the content on the local DHF network. The second phase of this lesson walks through how to make your site accessible outside of the DHF network. First, let's make sure that you're able to access your site locally.
 
 ## Activity: Navigating to Your Site
+
 This activity walks you through how to double check that your site is up and running! Once you make sure that the above steps are complete, begin following along with this activity.
 
 ### Steps:
@@ -33,31 +36,31 @@ This activity walks you through how to double check that your site is up and run
   - Either option will work. Try both!
     - If you're accessing the content from your own Pi, you can use http://localhost -- however, you're using the Pi without the GUI so you won't be able to do this
     - If you're accessing the content from another computer/Pi, you need to use your Pi's local IP address
-- You should see your web content being served! 
+- You should see your web content being served!
 - If not, begin troubleshooting the error codes and move from there
   - If you see the default Apache page and you've created your own content, check to make sure that your content is in the correct location on your Pi
 
 ## Organizating and Navigating Content
 
-Your content needs to be placed inside the */var/www/html/* directory for Apache to serve it. This location can be configured in Apache's settings, but this is the default location. This location is Apache's *DirectoryIndex*, which is where Apache looks for content to serve. Any new content that you add during this course should be inside this directory.
+Your content needs to be placed inside the _/var/www/html/_ directory for Apache to serve it. This location can be configured in Apache's settings, but this is the default location. This location is Apache's _DocumentRoot_., which is where Apache looks for content to serve. Any new content that you add during this course should be inside this directory.
 
-Apache needs to know about the content, so this is a good first troubleshooting step if you're having trouble. This is true for individual files as well as folders If you haven't changed the configuration, you'll need to make sure that your HTML content, especially your *index.html* file, are included in this directory.
+Apache needs to know about the content, so this is a good first troubleshooting step if you're having trouble. This is true for individual files as well as folders If you haven't changed the configuration, you'll need to make sure that your HTML content, especially your _index.html_ file, are included in this directory.
 
-Your initial *index.html* is a single HTML file located inside */var/www/html/*. If you've created additional pages such as *about.html* you'll need to make sure that it also is placed in this directory. 
+Your initial _index.html_ is a single HTML file located inside _/var/www/html/_. If you've created additional pages such as _about.html_ you'll need to make sure that it also is placed in this directory.
 
-**Note:** If you don't have an *index.html* file in this location, Apache won't serve content!
+**Note:** If you don't have an _index.html_ file in this location, Apache won't serve content!
 
-There are often times when you want tocreate new folders within Apache's *DirectoryIndex*. Let's take a look at that process!
+There are often times when you want tocreate new folders within Apache's _DocumentRoot_.. Let's take a look at that process!
 
 ## Creating New Folders
 
-You may wonder why you'd want to create a new folder. This section touches on two practical reasons: content organization and separation of concerns. Let's look at a practical example: you plan on having a section of your site for *blog posts* and another for a *portfolio*. Once you start having enough content inside each section, it may start to make sense to create additional folders for organizing it.
+You may wonder why you'd want to create a new folder. This section touches on two practical reasons: content organization and separation of concerns. Let's look at a practical example: you plan on having a section of your site for _blog posts_ and another for a _portfolio_. Once you start having enough content inside each section, it may start to make sense to create additional folders for organizing it.
 
 ### Content Organization
 
 Suppose that you already have 15 potential blog posts written in a Google document and 5 portfolio entries. You'd like each item to be its own HTML page so that you can have unique links for each piece. You could create all of these as individual files in the */var/www/html/* folder and link to them on your site, but this could quickly become disorganized. Instead, you could create two new folders in the directory: blog and portfolio. Note that these folders can be named anything you'd like, but if the goal is content organization then the names should be recognizable and clear.
 
-Once these folders are created (remember, the ```mkdir``` command is used to do this), then you can navigate into the new folder (with the ```cd``` command) and make new files. For example, you'd navigate into your new blog folder and start creating each entry there. You could then even give each file a name that includes the date (optional) or just a title. Now you'll know that all of your blog content exists inside the blog folder!
+Once these folders are created (remember, the `mkdir` command is used to do this), then you can navigate into the new folder (with the `cd` command) and make new files. For example, you'd navigate into your new blog folder and start creating each entry there. You could then even give each file a name that includes the date (optional) or just a title. Now you'll know that all of your blog content exists inside the blog folder!
 
 ### Separation of Concerns
 
