@@ -5,6 +5,10 @@ title: 'Getting Started With VS Code'
 
 ## Objectives and Overview
 
+This lesson introduces VS Code, the text editor that you'll be using throughout this course. As you work through the course you'll become more familiar with VS Code, but this lesson gets you started and provides an overview of many core features.
+
+**Note:** You're using a special version of VS Code made to work on the Raspberry Pi. The file itself is called _headmelted_. Even though the name differs, the program itself is VS Code. The VS Code skills and practice that you learn in this course will be applicable if you use VS Code for macOS, Linux, or Windows.
+
 ### Lesson Objectives
 
 - Recognize the purpose of a text editor in web development.
@@ -29,7 +33,7 @@ One of the best features of VS Code is that it is highly customizable and highly
 
 ## Opening VS Code on the Raspberry Pi
 
-![Opening VS Code](../images/opening-headmelted.jpg)
+![Opening VS Code](../images/gui-opening-headmelted.jpg)
 
 ![Finding the WiFi networks](../images/gui-wifi-networks.jpg)
 
@@ -58,4 +62,3 @@ Open VS Code and go to File->Open. This image shows the course folder on the Des
 One of VS Code's strengths is its flexibility and extensibility. There are many plugins and extensions that increase the power. After this course you'll have a solid foundation in VS Code, but if you're looking to build your knowledge, here are some resources:
 
 - [Microsoft: Getting Started With Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
--
