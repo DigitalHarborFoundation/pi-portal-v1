@@ -33,25 +33,17 @@ One of the best features of VS Code is that it is highly customizable and highly
 
 ## Opening VS Code on the Raspberry Pi
 
+To open VS Code, click on the Raspberry Pi icon from the desktop and then click on the _Programming_ menu. From here, click on the first option: _Code - OSS (headmelted)_:
+
 ![Opening VS Code](../images/gui-opening-headmelted.jpg)
 
-![Finding the WiFi networks](../images/gui-wifi-networks.jpg)
+Once you click this, VS Code will launch. Remember, even though this is named _headmelted_, it's actually VS Code -- the name is different since it's a special "port" of VS Code that works on the Raspberry Pi. Just keep this in mind as you're starting off with VS Code.
 
 ## VS Code Interface Tour
 
-## VS Code Shortcuts
-
-<!-- ## File Management
+## File Management
 
 You’re going to want to develop a consistent system for managing the folders and files for each new project. One of the best ways to do this is to create one folder for the course and then a sub-folder for each project. You’ll be creating one main page for this course, so you should make sure to have at least one additional sub-folder.
-
-### Setting Up Your Directories
-
-If you’re comfortable with using the command line, you can complete this process very quickly within terminal. However, command line instruction isn’t in the scope of this course so unless you already have that skill-set it won’t be covered. This lesson will include resources on learning basic command line skills if you’re interested in pursuing it, but you’re also perfectly able to do this from the Finder window.
-
-## Working with a Text Editor
-
-Once your file system is set up, go ahead and open up your text editor. These examples use VS Code, but if you use another editor for some of your future web development there will be slight distinctions but the general concepts will be similar. -->
 
 ## Creating a New File
 
