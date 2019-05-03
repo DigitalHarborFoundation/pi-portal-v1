@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
 import SEO from '../components/seo';
+import heroImg from '../images/pi-portal-hero.jpg';
 
 const IndexPage = () => (
   <LessonContainer>
@@ -10,6 +11,7 @@ const IndexPage = () => (
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta explicabo
       incidunt eum maiores odit architecto necessitatibus atque fugiat ullam et,
       ex sapiente impedit accusamus libero perferendis a. Optio, est fuga.
+      <img src={heroImg} />
     </LessonBody>
   </LessonContainer>
 );

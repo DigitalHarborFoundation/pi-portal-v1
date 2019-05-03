@@ -16,6 +16,8 @@ This lesson provides a virtual "tour" of the Raspberry Pi GUI (Graphical User In
 
 ## Overview of the Desktop
 
+![Overview of the Raspberry Pi GUI](../images/gui-desktop-overview.jpg)
+
 ## Basic File Navigation
 
 ![Raspberry Pi GUI desktop with file manager open](../images/gui-desktop-file-manager.jpg)
@@ -24,4 +26,24 @@ This lesson provides a virtual "tour" of the Raspberry Pi GUI (Graphical User In
 
 ## Launching Applications
 
+![Opening applications from the Raspberry Pi GUI](../images/gui-opening-apps.jpg)
+
 ## Powering Down the Raspberry Pi
+
+![Powering down the Raspberry Pi](../images/gui-power-off-pi.jpg)
+
+## Configuring WiFi Network
+
+![Finding the WiFi networks](../images/gui-wifi-networks.jpg)
+
+![Entering the WiFi network login password](../images/gui-wifi-changing-network.jpg)
+
+## Opening Chromium
+
+![Opening the Chromium browser](../images/gui-opening-chromium.jpg)
+
+![Navigating to the piportal site](../images/gui-chromium-piportal.jpg)
+
+## Configuring Mouse and Keyboard Preferences
+
+![Configuring Mouse and Keyboard Preferences](../images/gui-mouse-keyboard-preferences.jpg)

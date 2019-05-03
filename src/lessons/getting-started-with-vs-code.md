@@ -27,7 +27,11 @@ HTML, CSS, and JavaScript files are plain text files that have specific file ext
 
 One of the best features of VS Code is that it is highly customizable and highly responsive. Over the past two years there has been a widespread adoption of VS Code in the developer community. This means that there is a wealth of extensions for VS Code, so you’re likely to be able to find any additional features that you need.
 
-Your Raspberry Pi should have VS Code installed already.
+## Opening VS Code on the Raspberry Pi
+
+![Opening VS Code](../images/opening-headmelted.jpg)
+
+![Finding the WiFi networks](../images/gui-wifi-networks.jpg)
 
 ## VS Code Interface Tour
 
@@ -45,7 +49,7 @@ If you’re comfortable with using the command line, you can complete this proce
 
 Once your file system is set up, go ahead and open up your text editor. These examples use VS Code, but if you use another editor for some of your future web development there will be slight distinctions but the general concepts will be similar. -->
 
-### Steps:
+## Creating a New File
 
 Open VS Code and go to File->Open. This image shows the course folder on the Desktop. Navigate to the folder and open it in VS Code.
 
