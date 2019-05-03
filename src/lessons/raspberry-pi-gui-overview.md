@@ -19,6 +19,7 @@ This lesson provides a virtual "tour" of the Raspberry Pi GUI (Graphical User In
 ## Basic File Navigation
 
 ![Raspberry Pi GUI desktop with file manager open](../images/gui-desktop-file-manager.jpg)
+
 ![Navigating the file system through the Raspberry Pi GUI](../images/gui-navigating-files.jpg)
 
 ## Launching Applications
