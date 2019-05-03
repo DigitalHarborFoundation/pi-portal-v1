@@ -83,6 +83,14 @@ const CourseNavbar = () => (
             </div>
           </AccordionItemTitle>
           <AccordionItemBody>
+            <CourseNavLink
+              to="/lessons/getting-started-with-vs-code"
+              activeStyle={activeStyles}
+            >
+              Getting Started With VS Code
+            </CourseNavLink>
+          </AccordionItemBody>
+          <AccordionItemBody>
             <CourseNavLink to="/lessons/html-basics" activeStyle={activeStyles}>
               HTML Basics
             </CourseNavLink>
