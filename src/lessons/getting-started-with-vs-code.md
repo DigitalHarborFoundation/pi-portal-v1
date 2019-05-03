@@ -41,13 +41,47 @@ Once you click this, VS Code will launch. Remember, even though this is named _h
 
 ## VS Code Interface Tour
 
+VS Code's interface can be overwhelming at first, but it'll become intuitive as you explore and use the features.
+
+Let's take a quick look at the basic interface:
+
+![VS Code welcome screen](../images/vs-code-open.jpg)
+
+The sidebar is the file explorer. Your project files will show up here as you add them to the project folder. You can switch active files by clicking on a file.
+
+This sidebar can also be hidden by clicking on the file navigation icon -- this is the top icon on the sidebar that looks like a stack of papers. Clicking it again will bring the file navigation sidebar back.
+
+In the previous screenshot, the main interface shows the welcome screen. However, once you start working on a file this is where you'll write your code.
+
+All of the windows can be adjusted by clicking and dragging. Go ahead and try!
+
 ## File Management
 
-You’re going to want to develop a consistent system for managing the folders and files for each new project. One of the best ways to do this is to create one folder for the course and then a sub-folder for each project. You’ll be creating one main page for this course, so you should make sure to have at least one additional sub-folder.
+You’re going to want to develop a consistent system for managing the folders and files for each new project. You'll want to create a folder for each project.
+
+Go ahead and create a project folder. Look back to the _Raspberry Pi: GUI Overview_ lesson if you're unsure how to create a folder.
+
+Once you've created a folder, you can open it in VS Code by clicking **File->Open Folder** and then selecting the folder from the file explorer that opens.
+
+Here's a screenshot showing the menu:
+
+![VS Code opening a project folder](../images/vs-code-open-folder.jpg)
+
+Once you've loaded a folder, let's create a new file.
 
 ## Creating a New File
 
-Open VS Code and go to File->Open. This image shows the course folder on the Desktop. Navigate to the folder and open it in VS Code.
+Open VS Code and go to **File->New File**.
+
+Here's a screenshot showing the menu:
+
+![VS Code creating a new file](../images/vs-code-file.jpg)
+
+Once you click this, a new untitled file is created. Select **File->Save As** from the menu to rename the file. Name it _index.html_ to prepare for the next lesson:
+
+![VS Code saving a new file](../images/vs-code-saving.jpg)
+
+You now should have a new file named _index.html_! If not, make sure to create this before moving on.
 
 ## Going Further
 
