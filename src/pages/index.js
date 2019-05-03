@@ -9,31 +9,10 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <LessonBody>
       <h2>Welcome to the Digital Harbor Foundation Pi Portal</h2>
-      <img src={heroImg} />
-      <h2>Background and Context</h2>
-      <p>
-        House Bill 281, signed into law by Governor Hogan in May 2018, requires
-        that every high school offers a computer science course beginning in the
-        2021-2022 school year and that every school district demonstrates
-        efforts to incorporate CS instruction in elementary and middle school
-        environments. According to a Fiscal and Policy Note Analysis conducted
-        by the Department of Legislative Services: while 158 high schools across
-        the state are currently offering some form of Advanced Placement (AP) or
-        International Baccalaureate (IB) CS course, a total of 129 high schools
-        statewide report not currently offering any CS class at all.
-      </p>
-      <h2>Piloting a Solution</h2>
-      <p>
-        To help schools, and with the support of the Maryland Center for
-        Computing Education (MCCE), we are currently piloting a high-quality and
-        low-cost option based on our previous work with low-cost devices in our
-        computer science programs. Through this pilot program, we are deploying
-        classroom sets of Raspberry Pi portals in three school districts,
-        creating a comprehensive solution that includes: A classroom technology
-        architecture guide A standard-aligned student curriculum An introductory
-        educator workshop Ongoing educator community of practice Device
-        servicing support structure.
-      </p>
+ 
+      <img style={{ boxShadow: `0px 4px 10px rgba(0, 0, 0, 0.2)` }} src={heroImg} />
+      <p style={{ color: `#63686B`, fontSize: `1.2rem` }}>
+      Helping Schools Develop Low-Cost, High-Value, Computer Science Experiences!</p>     
     </LessonBody>
   </LessonContainer>
 );
