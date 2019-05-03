@@ -35,6 +35,18 @@ This will return your Pi's IP address. Check out this screenshot taken from Adaf
 
 This command returns lots of information. Your IP address is found in the `wlan0` section next to the `inet addr`. In the above example, the Pi's IP address is `192.168.1.10`.
 
+If you'd rather watch a video, here's a short demonstration from _howtwos101_ demonstrating the process:
+
+[insert video]
+
+_Video Credit: howtwo101s_
+
+### Identifying an Internal IP Address
+
+Notice that IP addresses are a series of four numbers, separated by periods. The IP address in the previous example, 192.168.1.10, starts with the numbers 192.168 — this signals that it’s an internal address. If an address starts with either 192.168 or 10.0, then it’s an internal address. You’ll be able to get outward from your Pi, but you’re going to need to do more configuration to set up your Raspberry Pi as a web server. This will be covered in later lessons.
+
+For additional reading, check out this Adafruit article: [Finding Your Pi’s IP Address](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/finding-your-pis-ip-address).
+
 ## DNS
 
 **DNS** stands for **Domain Name Server**. Essentially, this is what transfers the text of a **domain name** into an IP address. While the domain name text is easy for humans to write and remember, computers need to translate these into the IP addresses. Computers access websites via IP addresses. Each server that serves web content has an IP address that is accessed by other computers, such as your web browser.

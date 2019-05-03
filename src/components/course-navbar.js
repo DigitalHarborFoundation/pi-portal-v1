@@ -177,14 +177,6 @@ const CourseNavbar = () => (
               Command Line Basics
             </CourseNavLink>
           </AccordionItemBody>
-          <AccordionItemBody>
-            <CourseNavLink
-              to="/lessons/introducing-ssh"
-              activeStyle={activeStyles}
-            >
-              Introducing SSH
-            </CourseNavLink>
-          </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
           <AccordionItemTitle className="accordion__title accordion__title--animated">

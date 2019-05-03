@@ -5,6 +5,8 @@ title: 'Command Line Basics'
 
 ## Objectives and Overview
 
+This lesson introduces basic Linux command line commands and some basic activities to build comfort using the command line.
+
 ### Lesson Objectives
 
 - Explain what the command line is and the benefits of knowing how to use it to interact with a system.
@@ -17,13 +19,18 @@ title: 'Command Line Basics'
 
 The **Command Line Interface (CLI)** is a method of interacting and sending commands to the computer that predates a Graphical User Interface (GUI). Understanding and becoming familiar with the command-line is a valuable and increasingly required skill for developers.
 
+You're able to interact with the command line via the Terminal application on your Raspberry Pi. This is opened by clicking on this icon from the GUI desktop:
+
+[insert image of terminal]
+
 ### Why Use the Command Line?
 
 While it may seem that this is an unnecessary tool to use when you can achieve the same results using Finder, becoming familiar with navigating the command line will enable you to move through your file system much faster.
 
 ## Common Commands
 
-For this course, you'll be using the CLI to navigate your file system. This is particularly useful for web development because once you understand the basic commands you'll be able to easily create projects with properly structured files. Since a lot of projects using the Raspberry Pi are created with the Linux OS (Operating System) in mind, it will be key to understand some of the basic commands. After developing a basic understanding you'll be comfortable enough to look up other commands and options in Linux.
+Understanding how to navigate the filesystem from the command line is useful for web development since you won't always have access to a GUI.
+Raspberry Pi's Operating System is Linux, so let's dive into some basic commands. After developing a basic understanding you'll be comfortable enough to look up other commands and options in Linux.
 
 ### File System Basics
 
@@ -138,15 +145,15 @@ This quick project is an opportunity to practice the commands in this lesson. Le
 
 ### Steps:
 
-- Find out what is in your current folder using the `ls` command
-- Make a folder in your Raspberry Pi home directory called "test"
-  - Find out what's in your current folder again
-  - Hint: remember, the command for making folders differs from making individual files!
-- Move into the newly created folder
-- Create a text file called _hello.txt_ in the test directory
-- Add a sentence to the _hello.txt_ file
-- Save and quit your editor
-- Using the `cat` command, print out the text in your _hello.txt_ file.
+1. Find out what is in your current folder using the `ls` command
+2. Make a folder in your Raspberry Pi home directory called "test"
+   - Find out what's in your current folder again
+   - Hint: remember, the command for making folders differs from making individual files!
+3. Move into the newly created folder
+4. Create a text file called _hello.txt_ in the test directory
+5. Add a sentence to the _hello.txt_ file
+6. Save and quit your editor
+7. Using the `cat` command, print out the text in your _hello.txt_ file.
 
 ## Installing and Updating Software
 
@@ -154,11 +161,12 @@ Managing software is a crucial concept. In this course, you'll be responsible fo
 
 The main command line tool for managing software is `apt-get`. APT stands for Advanced Packaging Tool and is used to get software packages, including updates. There are some key commands that you'll be using:
 
-`apt-get update` -  Checks installed software and tells the local machine to check available software updates. Should always be done before an upgrade (or dist-upgrade)
+`apt-get update` -  Checks installed software and tells the local machine to check available software updates. Should always be done before an `upgrade` or `dist-upgrade`
 `apt-get upgrade` - Actually installs the available software updates. If update isn't done first, apt-get won't know which updates are available.
 `apt-get dist-upgrade` - This is a "smarter" upgrade tool that handles dependencies. This usually is preferred over upgrade.
 `apt-get install` - Installs a specific tool/software, such as `apt-get install php` would install PHP on the server.
 `apt-get remove` - Removes a specific tool/software, such as `apt-get remove php` would remove PHP from the server.
+
 **Note:** These commands require admin access. You'll need to prefix them with `sudo`, such as `sudo apt-get update`.
 
 ## Activity: Updating the Pi Software
@@ -166,3 +174,9 @@ The main command line tool for managing software is `apt-get`. APT stands for A
 Keeping your server (and other software on the Pi) up to date is crucial. There are often security patches or other vital software updates that are released. Server and software maintenance should become part of your daily routine, especially when working with web technology. This activity walks through the process of updating your Raspberry Pi via the command line.
 
 **Note:** Before starting, you'll need to have administrator access to your system. You have this for your Raspberry Pi, but you'll still need to start each command with `sudo`. If you're working on a server at another point in your tech explorations, remember that for these types of updates you'll need admin access.
+
+### Steps:
+
+1. Open terminal and run `sudo apt-get update`
+2. Once that finishes, run `sudo apt-get dist-upgrade`
+   - Note that you may be prompted to answer 'yes' or 'no' throughout this process
