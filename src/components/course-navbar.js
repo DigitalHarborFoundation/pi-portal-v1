@@ -284,8 +284,9 @@ const CourseNavbarContainer = styled.aside`
     z-index: 1;
   }
 
-  @media only screen and (max-width: 1300px) {
+  @media only screen and (min-width: 1001px) and (max-width: 1400px) {
     max-width: 25%;
+    background: red;
   }
 `;
 
