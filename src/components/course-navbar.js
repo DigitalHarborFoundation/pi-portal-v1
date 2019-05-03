@@ -66,6 +66,14 @@ const CourseNavbar = () => (
               Raspberry Pi: Hardware Overview
             </CourseNavLink>
           </AccordionItemBody>
+          <AccordionItemBody>
+            <CourseNavLink
+              to="/lessons/raspberry-pi-gui-overview"
+              activeStyle={activeStyles}
+            >
+              Raspberry Pi: GUI Overview
+            </CourseNavLink>
+          </AccordionItemBody>
         </AccordionItem>
         <AccordionItem>
           <AccordionItemTitle className="accordion__title accordion__title--animated">

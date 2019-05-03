@@ -5,11 +5,22 @@ title: 'Raspberry Pi: GUI Overview'
 
 ## Objectives and Overview
 
-This lesson provides a virtual "tour" of the physical layout of a Raspberry Pi. Additionally, the lesson includes discussion about hardware _peripherals_ that can be attached to a Pi, and includes instruction and troubleshooting for attaching common peripherals such as keyboards, mice, and monitors.
+This lesson provides a virtual "tour" of the Raspberry Pi GUI (Graphical User Interface). Included is an overview of the desktop, basic file navigation, launching applications, and other common tasks.
 
 ### Lesson Objectives
 
-- Identify the hardware components on a Raspberry Pi and explain their role.
-- Identify how to attach peripherals to a Raspberry Pi and demonstrate this by setting up your Raspberry Pi.
+- Build familiarity with the Raspberry PI GUI.
+- Understand how to navigate the filesystem, launch applications, and power down the Raspberry Pi via the GUI.
 
 ---
+
+## Overview of the Desktop
+
+## Basic File Navigation
+
+![Raspberry Pi GUI desktop with file manager open](../images/gui-desktop-file-manager.jpg)
+![Navigating the file system through the Raspberry Pi GUI](../images/gui-navigating-files.jpg)
+
+## Launching Applications
+
+## Powering Down the Raspberry Pi
