@@ -5,7 +5,7 @@ title: 'HTML Basics'
 
 ## Objectives and Overview
 
-Wings extraction cup extra frappuccino half and half medium rich. Shop, ristretto caramelization, decaffeinated single shot dripper medium dark chicory lungo mocha. French press single origin, skinny arabica con panna single shot strong dripper. Eu, robusta grinder whipped irish roast doppio white strong dark mazagran.
+This lesson introduces HTML, common HTML terms, and elements. By the end of the lesson, you'll have created your first HTML page!
 
 ### Lesson Objectives
 
