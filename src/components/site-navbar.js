@@ -6,7 +6,6 @@ const SiteNavbar = () => (
   <SiteNavContainer>
     <SiteNavList>
       <SiteNavEntry>
-        <SiteNavLink to="/about">About</SiteNavLink>
       </SiteNavEntry>
     </SiteNavList>
   </SiteNavContainer>
