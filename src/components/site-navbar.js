@@ -8,9 +8,6 @@ const SiteNavbar = () => (
       <SiteNavEntry>
         <SiteNavLink to="/about">About</SiteNavLink>
       </SiteNavEntry>
-      <SiteNavEntry>
-        <SiteNavLink to="/">Course</SiteNavLink>
-      </SiteNavEntry>
     </SiteNavList>
   </SiteNavContainer>
 );

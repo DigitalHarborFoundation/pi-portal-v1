@@ -42,15 +42,13 @@ const MainContainer = styled.div`
   grid-template-columns: 1fr 3fr;
   grid-template-areas:
     'header header'
-    'sidebar content'
-    'footer footer';
+    'sidebar content';
 
   @media only screen and (max-width: 1000px) {
     grid-template-columns: 1fr;
     grid-template-areas:
       'header'
       'content'
-      'sidebar'
-      'footer';
+      'sidebar';
   }
 `;
