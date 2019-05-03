@@ -148,7 +148,7 @@ At this point, your HTML should look something like this:
 </html>
 ```
 
-6. Run the **live server** so that you can actively preview your work
+6. Run the **live server** in VS Code so that you can actively preview your work. To do this, select the **Go Live** button in the bottom right of VS Code. This opens your project in a Chromium browser window!
 7. Next, let's add some elements to the _body_! Remember, the content you add should be between the opening `<body>` and closing `</body>` tag. Include the following HTML elements:
 
    - An `<h1>` heading
