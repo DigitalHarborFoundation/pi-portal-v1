@@ -120,7 +120,7 @@ With that said, let's take a look at the inline, block, and inline-block propert
 
 ## Adjusting Margin and Padding
 
-Two of the most impactful methods for adjusting layout are to change the *padding* and *margin* values for your HTML elements.
+Two of the most impactful methods for adjusting layout are to change the _padding_ and _margin_ values for your HTML elements.
 
 Remember, you can set the padding and margin for each side of an element independently. For example:
 
@@ -135,7 +135,7 @@ Remember, you can set the padding and margin for each side of an element indepen
 }
 ```
 
-The above example would set the padding of the top, bottom, left, and right sides independently and then set *all* of the margins to 16px.
+The above example would set the padding of the top, bottom, left, and right sides independently and then set _all_ of the margins to 16px.
 
 There are two shorthands you can use for padding and margin. Using `padding: 16px` or `margin: 16px` sets all of the sides to the same value.
 
@@ -143,10 +143,41 @@ If you use `padding: 0 16px` or `margin: 0 auto`, the first number is the top an
 
 ## Activity: Adjusting the Layout
 
+Let's practice some high-impact layout adjustments.
+
+The first thing to do is to wrap your main HTML content within a container element:
+
+```html
+<body>
+  <main class="content-container">
+    <h1>Sample Site</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At, dolore nulla!
+      Cupiditate eos eius ex et aliquam autem veritatis numquam facilis quae aut
+      optio nisi temporibus, tempore placeat? Consequuntur, aut?
+    </p>
+  </main>
+</body>
+```
+
+Now, let's take a look at some CSS to provide some layout adjustments to the content within the `main` element:
+
+```css
+.content-container {
+  width: 700px;
+  margin: 0 auto;
+}
+```
+
+Go ahead and try this out! Making adjustments like this will add a bit of design to your page even by just removing the default browser styling.
+
+The best way to learn CSS is through practice and experimentation. Use this as a starting point and then begin to explore!
+
+Once you style the main content, try adding some padding and margin to other elements such as the paragraphs and headings.
 
 ## Going Further Resources
 
-The intent of this lesson is to provide an introduction to key display and layout topics. 
+The intent of this lesson is to provide an introduction to key display and layout topics.
 
 If you're interested in a clear tutorial that covers how to center different types of elements with CSS, check out this article by Flavio Copes: [Flavio Copes: How to center an element with CSS](https://flaviocopes.com/css-centering/)
 
