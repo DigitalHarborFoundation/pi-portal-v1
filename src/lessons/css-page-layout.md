@@ -118,6 +118,36 @@ The other two properties, `display: flex` and `display: grid` are for the powerf
 
 With that said, let's take a look at the inline, block, and inline-block properties.
 
+## Adjusting Margin and Padding
+
+Two of the most impactful methods for adjusting layout are to change the *padding* and *margin* values for your HTML elements.
+
+Remember, you can set the padding and margin for each side of an element independently. For example:
+
+```css
+.my-element {
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  margin: 16px;
+}
+```
+
+The above example would set the padding of the top, bottom, left, and right sides independently and then set *all* of the margins to 16px.
+
+There are two shorthands you can use for padding and margin. Using `padding: 16px` or `margin: 16px` sets all of the sides to the same value.
+
+If you use `padding: 0 16px` or `margin: 0 auto`, the first number is the top and bottom, and the second is the left and right. You'll often see `margin: 0 auto` used to provide automatic centering on certain elements.
+
+## Activity: Adjusting the Layout
+
+
 ## Going Further Resources
 
-The intent of this lesson is to provide an introduction to key display and layout topics.
+The intent of this lesson is to provide an introduction to key display and layout topics. 
+
+If you're interested in a clear tutorial that covers how to center different types of elements with CSS, check out this article by Flavio Copes: [Flavio Copes: How to center an element with CSS](https://flaviocopes.com/css-centering/)
+
+Flavio's article shows examples with both CSS Grid and Flexbox. Go ahead and experiment if you're interested!
