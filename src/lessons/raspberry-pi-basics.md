@@ -29,7 +29,9 @@ The [Raspberry Pi Foundation](https://www.raspberrypi.org) do lots of great work
 
 Check out the introduction video from the Raspberry Pi Foundation:
 
-<iframe src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/what-is-raspberry-pi.mp4" width="600" height="400" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe> 
+<video height="400" width="600" controls> 
+    <source src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/what-is-raspberry-pi.mp4?rel=0"> 
+</video>
  
 ## Raspberry Pi Comparisons: Arduino
 
@@ -59,7 +61,9 @@ The Pocket PiGRRL is a DIY gaming device that looks like an old Nintendo Gameboy
 
 This video provides an overview of the project:
 
-<iframe src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/pocket-pi-grrrl.mp4" width="600" height="400" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<video height="400" width="600" controls> 
+    <source src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/pocket-pi-grrrl.mp4"> 
+</video>
 
 ### Retro Gaming Console
 
@@ -82,7 +86,9 @@ Here is another example of several stacked Raspberry Pi sitting next to a laptop
 
 If you're interested in learning more, check out this video about Raspberry Pi super computers:
 
-<iframe src="https://www.youtube.com/embed/ubUTTrbEckM" width="600" height="400" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<video height="400" width="600" controls> 
+    <source src="https://www.youtube.com/embed/ubUTTrbEckM"> 
+</video>
 
 ### Raspberry Pi Tablet
 
