@@ -87,7 +87,7 @@ Here is another example of several stacked Raspberry Pi sitting next to a laptop
 If you're interested in learning more, check out this video about Raspberry Pi super computers:
 
 <video height="400" width="600" controls> 
-    <source src="https://www.youtube.com/embed/ubUTTrbEckM"> 
+    <source src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/Raspberry+Pi+Supercomputer-ubUTTrbEckM.mp4"> 
 </video>
 
 ### Raspberry Pi Tablet

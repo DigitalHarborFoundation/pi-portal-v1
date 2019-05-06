@@ -37,7 +37,9 @@ This command returns lots of information. Your IP address is found in the `wlan
 
 If you'd rather watch a video, here's a short demonstration from _howtwos101_ demonstrating the process:
 
-[insert video]
+<video width="600" height="400" controls>
+    <source src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/how-to-find-ip-address-rpi-3.mp4">
+</video>
 
 _Video Credit: howtwo101s_
 
