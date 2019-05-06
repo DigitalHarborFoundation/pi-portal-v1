@@ -50,7 +50,7 @@ Your initial _index.html_ is a single HTML file located inside _/var/www/html/_.
 
 **Note:** If you don't have an _index.html_ file in this location, Apache won't serve content!
 
-There are often times when you want tocreate new folders within Apache's _DocumentRoot_.. Let's take a look at that process!
+There are often times when you want to create new folders within Apache's _DocumentRoot_.. Let's take a look at that process!
 
 ## Creating New Folders
 
