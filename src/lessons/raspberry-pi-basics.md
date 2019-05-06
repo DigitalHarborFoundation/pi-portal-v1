@@ -32,7 +32,7 @@ Check out the introduction video from the Raspberry Pi Foundation:
 <video height="400" width="600" controls> 
     <source src="https://s3.amazonaws.com/piportal.digitalharbor.org/videos/what-is-raspberry-pi.mp4?rel=0"> 
 </video>
- 
+
 ## Raspberry Pi Comparisons: Arduino
 
 If you’ve seen or used an Arduino, you may be wondering the core differences between a Raspberry Pi and an Arduino. On the surface it may seem as if they’re the same thing, especially considering the variety of projects that both can power.
