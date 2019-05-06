@@ -93,7 +93,7 @@ This is the structure that you should practice using in all of your HTML files t
 
 ## Basic HTML Guidelines
 
-Here are some basic guidelines to follow as you work in Thimble to build your About Me page:
+Here are some basic guidelines to follow as you work on your page:
 
 - Remember to close all tags that you open!
 - Write all HTML tags lowercase.
