@@ -71,8 +71,8 @@ const LessonBody = styled.article`
   }
 
   a {
-    color: #63686b;
-
+    /* color: #63686b; */
+    color: #0091c9;
     text-decoration: underline;
     transition: color 0.5s ease;
   }
