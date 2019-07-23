@@ -3,10 +3,12 @@ module.exports = {
     title: `Pi Portal`,
     description: `Digital Harbor Foundation's Pi Portal project for the Pi Pilot project in Spring 2019.`,
     author: `@jonathanprozzi`,
+    siteUrl: `https://piportal.digitalharbor.org`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`, 
     {
       resolve: `gatsby-source-filesystem`,
       options: {
