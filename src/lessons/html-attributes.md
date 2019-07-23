@@ -60,7 +60,7 @@ The **class** of an element can be set in the following way:
 
 The **id** of an element can be set in the following way:
 
-`<div class="hidden-content></div>`
+`<div id="hidden-content"></div>`
 
 Id attributes are even more precise than class attributes, as they target only one unique element at a time. Regardless of which type of element they appear on, id attribute values can only be used **once per page**.
 
