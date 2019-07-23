@@ -42,7 +42,7 @@ Here is a list of the most commonly used attributes and their purpose:
 
 - **id** – Identifies an element.
 - **class** – Classifies an element.
-- **src** – Source of an embeddable content, typically an img
+- **src** – Source of an embeddable content, typically an `<img>`
 - **href** – Hyperlink reference to linked content.
 - **alt** – Alternate text for an image.
 
