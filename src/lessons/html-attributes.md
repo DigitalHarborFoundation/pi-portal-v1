@@ -25,9 +25,7 @@ Attributes are defined within the opening tag of an element. An attribute consis
 Look at the following example of an anchor `<a>` element:
 
 ```html
-<a href="https://digitalharbor.org/"
-  >Link to the Digital Harbor Foundation Website</a
->
+<a href="https://digitalharbor.org/">Link to the Digital Harbor Foundation Website</a>
 ```
 
 - The **element** is the `<a>` tag
