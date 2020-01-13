@@ -5,12 +5,12 @@ title: 'HTML Attributes'
 
 ## Objectives and Overview
 
-This lesson provides an overview of HTML attributes. You'll take a look at some common HTML attributes such as classes and ids. Additionally, this lesson contains examples about setting HTML attributes.
+This lesson provides an overview of HTML attributes. You'll take a look at some common HTML attributes such as classes and ids. Additionally, this lesson contains examples of setting HTML attributes.
 
 ### Lesson Objectives
 
-- Be able to explain what an HTML attribute is and describe common uses.
-- Understand and explain how to set attributes on HTML elements.
+- Explain what an HTML attribute is and describe common uses.
+- Explain how to set attributes on HTML elements.
 
 ---
 
@@ -25,7 +25,9 @@ Attributes are defined within the opening tag of an element. An attribute consis
 Look at the following example of an anchor `<a>` element:
 
 ```html
-<a href="https://digitalharbor.org/">Link to the Digital Harbor Foundation Website</a>
+<a href="https://digitalharbor.org/"
+  >Link to the Digital Harbor Foundation Website</a
+>
 ```
 
 - The **element** is the `<a>` tag
