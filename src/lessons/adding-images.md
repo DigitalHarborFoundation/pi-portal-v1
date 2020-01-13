@@ -5,7 +5,7 @@ title: 'Adding Images'
 
 ## Objectives and Overview
 
-This lesson introduces the `<img>` element and how to it to include images on your website. Additionally, you'll learn the importance of the _alt_ attribute, and how to link to both local images on your computer and external images from another source.
+This lesson introduces the `<img>` element and how to include images on your website. Additionally, you'll learn the importance of the _alt_ attribute, and how to link to both local images on your computer and external images from another source.
 
 ### Lesson Objectives
 
