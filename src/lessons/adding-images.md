@@ -66,7 +66,7 @@ _Image Credit: Mikhail Vasilyev on Unsplash_
 
 #### Tip: Finding the Source for External Images
 
-It's sometimes tricky to find the actual URL for an external image. One trick that you can use is to _right click_ on the image and click "Copy Image Address." This is the actual URL of the image. You can then use this URL as the image's source.
+It's sometimes tricky to find the actual URL for an external image. One trick that you can use is to _right-click_ on the image and click "Copy Image Address." This is the actual URL of the image. You can then use this URL as the image's source.
 
 ## Alt Attribute
 
