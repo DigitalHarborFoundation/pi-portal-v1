@@ -170,7 +170,7 @@ Before moving on to the activity, let's take a look at an example.
 
 ## Activity: Create a Structured HTML Page
 
-Let's practice creating page using these semantic structural elements. From this point on, new pages that you create should utilize these elements.
+Let's practice creating a page using these semantic structural elements. From this point on, new pages that you create should utilize these elements.
 
 ### Steps:
 
@@ -190,4 +190,4 @@ At this point, your HTML should be the same as what you've previously used in th
 
 ### Going Further
 
-Extend the concepts by adding more elements. For example, try including a site navigation using the `nav` element. This should contain links that are related to navigating _your site_. You wouldn't include external links in this section.
+Extend the concepts by adding more elements. For example, try including site navigation using the `nav` element. This should contain links that are related to navigating _your site_. You wouldn't include external links in this section.
