@@ -183,7 +183,7 @@ Let's practice creating a page using these semantic structural elements. From th
 
 At this point, your HTML should be the same as what you've previously used in the lessons. Let's now extend it by adding structural elements into the _body_.
 
-6. Let's use some semantic structural elements. Add the following:
+7. Let's use some semantic structural elements. Add the following:
    - `header`
    - `main`
    - `footer`
