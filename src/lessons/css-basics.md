@@ -76,8 +76,6 @@ Here is a helpful infographic from MDN:
 
 ![Infographic of a CSS Declaration from MDN](../images/css-basics-syntax-declaration-mdn.jpg)
 
-_Image Credit: MDN Web Docs_
-
 ### Rules
 
 **Rules**, or **rulesets**, are the combination of the selector and the declarations. Building on the previous example, the ruleset for _p_ is the entire CSS block:
