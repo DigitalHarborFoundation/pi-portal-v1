@@ -9,7 +9,7 @@ This lesson goes a bit more in depth into common CSS properties relating to typo
 
 ### Lesson Objectives
 
-- Identify and explain what the following CSS properties do: `font-size`, `font-family`, and `font-weight`.
+- Identify and explain the following CSS properties: `font-size`, `font-family`, and `font-weight`.
 
 ---
 
