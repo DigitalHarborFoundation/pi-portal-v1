@@ -74,7 +74,7 @@ Both `color: palevioletred` and `font-size: 12px` are declarations.
 
 Here is a helpful infographic from MDN:
 
-![CSS Declarations Infographic from MDN](../images/css-basics-syntax-declaration-mdn.jpg)
+![Infographic of a CSS Declaration from MDN](../images/css-basics-syntax-declaration-mdn.jpg)
 
 _Image Credit: MDN Web Docs_
 
