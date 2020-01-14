@@ -17,7 +17,7 @@ This lesson provides an introduction to some fundamental concepts related to CSS
 
 ## Page Layout with CSS
 
-Now that you’re familiar with creating a basic HTML page structure and comfortable using CSS selectors, it’s time to understand how elements are displayed on a page. You may have noticed that webpage layout is often structured as boxes. This is a carryover from the way that printing presses were used in page layout. Presenting information in groups of boxes is often a clear way to communicate with an audience.
+Now that you’re familiar with creating a basic HTML page structure and comfortable using CSS selectors, it’s time to understand how elements are displayed on a page. You may have noticed that webpage layouts are often structured as boxes. This is a carryover from the way that printing presses were used in page layout. Presenting information in groups of boxes is often a clear way to communicate with an audience.
 
 ## How Elements Display
 
@@ -25,13 +25,13 @@ Before jumping into the box model, it helps to understand how elements are displ
 
 Block-level elements always begin on a new line and occupy any available page width, regardless of their content. Block-level elements are generally used for larger pieces of content, such as headings, paragraphs, and structural elements.
 
-Inline-level elements don’t begin on a new line. Instead they’re contained in the normal flow of the content. Inline-level elements occupy only the width their content requires. Inline-level elements are generally used for smaller pieces of content, such as a few words selected to be bold or italicized.
+Inline-level elements don’t begin on a new line. Instead, they’re contained in the normal flow of the content. Inline-level elements occupy only the width their content requires. Inline-level elements are generally used for smaller pieces of content, such as a few words selected to be bold or italicized.
 
 ## Sizing and the CSS Box Model
 
 One of the most important CSS layout skills to understand is the box model. While this has more to do with sizing than actual page layout, it's crucial to understand how CSS processes space before diving into other layout topics.
 
-The box model can be frustrating if the time isn't taken to understand how CSS processes sizing. All HTML elements are represented as rectangular boxes. This may be confusing at first, but just imagine that every single element on your page has an invisible box drawn around it. The _appearance_ of these boxes, such as color, borders and size are determined by CSS properties.
+The box model can be frustrating if the time isn't taken to understand how CSS processes sizing. All HTML elements are represented as rectangular boxes. This may be confusing at first, but just imagine that every single element on your page has an invisible box drawn around it. The _appearance_ of these boxes, such as color, borders, and size is determined by CSS properties.
 
 The total size of each HTML element box is determined by the following properties:
 
@@ -41,7 +41,7 @@ Take a look at this image from the [MDN Web Docs](https://developer.mozilla.org/
 
 ![Example of the CSS Box Model From Mozilla Developer Network](../images/css-box-model-standard-mdn.jpg)
 
-Let's take a look from the inside out, since you'll almost always begin with the content.
+Let's take a look from the inside out since you'll almost always begin with the content.
 
 **Content**: The size of your actual content, whether it's an image, heading, or paragraph. Let's say that you create a paragraph that is 20px tall and 20px wide. These values are the content height and width.
 
@@ -56,7 +56,7 @@ This section refers to much of the content presented on the linked MDN resource 
 
 ### Tip: CSS Box Sizing Property
 
-There is a CSS property that relates directly to the box model: `box-sizing`. This property sets how the calculation for _total width and height_ of an element is done.
+There is a CSS property that relates directly to the box model: `box-sizing`. This property sets how the calculation for the _total width and height_ of an element is done.
 
 The default setting for this is `box-sizing: content-box` which means that the total size is determined by the content's width and height with the border, padding, and margin added _after_. This default behavior can be confusing when creating layouts.
 
@@ -114,7 +114,7 @@ For a full list of block elements, check out this resource: [MDN: Inline-level e
 
 CSS has the `display` property for working with layout. There are many different layout properties, but for now, focus on using _inline_, and _block_. As your CSS skills develop and you seek out new skills, you'll encounter `display: inline-block`, `display: flex` and `display: grid`. Inline-block is a combination of inline and block, but the usage is outside of the scope of this course. For now, focus on practicing with inline and block.
 
-The other two properties, `display: flex` and `display: grid` are for the powerful (and relatively new) CSS tools Flexbox and Grid. These are both out of the scope of this course, but are absolutely worth learning if you're interesting in web development.
+The other two properties, `display: flex` and `display: grid` are for the powerful (and relatively new) CSS tools Flexbox and Grid. These are both out of the scope of this course but are absolutely worth learning if you're interested in web development.
 
 With that said, let's take a look at the inline, block, and inline-block properties.
 
