@@ -9,7 +9,7 @@ This lesson goes a bit more in depth into common CSS properties relating to typo
 
 ### Lesson Objectives
 
-- Understand and explain what the following CSS properties do: `font-size`, `font-family`, and `font-weight`.
+- Identify and explain what the following CSS properties do: `font-size`, `font-family`, and `font-weight`.
 
 ---
 
@@ -78,6 +78,6 @@ Let's practice styling some text on your existing pages.
 ### Steps:
 
 1. Open your project and open your stylesheet -- this example assumes you named it _style.css_
-2. Change some of the font size and weights on your existing pages.
+2. Change some of the font sizes and weights on your existing pages.
 3. Open the **live server** if you haven't already
 4. As you change your CSS the live server preview updates!
