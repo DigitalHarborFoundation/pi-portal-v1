@@ -76,9 +76,9 @@ If you're connected to a network, the WiFi icon in the top right of the desktop 
 
 ![Finding the WiFi networks](../images/gui-wifi-networks.jpg)
 
-Clicking on another network in the list switches your connection. If the network is password protected, you'll be prompted to enter the password:
-
 ![Entering the WiFi network login password](../images/gui-wifi-changing-network.jpg)
+
+Clicking on another network in the list switches your connection. If the network is password protected, you'll be prompted to enter the password:
 
 Once you enter the password click the _Ok_ button. If the credentials are correct you'll connect to the network. Note that you can uncheck the "Hide characters" option if you want to see the password as you type it.
 
